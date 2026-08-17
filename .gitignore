@@ -1,0 +1,6 @@
+# Tehkné Solutions — HNK: AFTERWORLD
+web/assets/*
+!web/assets/README.md
+node_modules/
+evidence/screenshots/
+.DS_Store

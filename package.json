@@ -1,0 +1,10 @@
+{
+  "name": "hnk-rpg-game",
+  "private": true,
+  "version": "0.1.0",
+  "description": "HNK: AFTERWORLD Web-first RPG runtime — Tehkné Solutions",
+  "scripts": {
+    "serve": "python -m http.server 4173 -d web",
+    "test:pure": "node tests/pure-gates.mjs"
+  }
+}
