@@ -1,0 +1,22 @@
+{
+  "stage": "AF-001AC",
+  "name": "Web Vegetation & Biome Runtime Optimization",
+  "signature": "Tehkné Solutions",
+  "status": "IMPLEMENTED / PURE PERFORMANCE GATES",
+  "region": "NORTH_WOODLAND",
+  "logical_object_count": 667,
+  "new_logical_scatter": 560,
+  "visibility_categories": ["LANDMARK", "INTERACTIVE", "CANOPY", "MIDGROUND", "UNDERSTORY", "GROUND_DETAIL"],
+  "runtime_budget": {"target_fps":55,"visible_instances_min":120,"visible_instances_max":420,"initial_visible_instances":420,"adaptive_quality_min":0.38,"adaptive_quality_max":1.0},
+  "optimization_rules": [
+    "landmarks survive vegetation budgets",
+    "near interactive entities survive density culling",
+    "ground detail disappears before canopy",
+    "deterministic density sampling prevents visual popping between frames",
+    "view-cone rejection happens before draw submission",
+    "adaptive quality lowers density and instance budget when sustained FPS falls",
+    "GPU geometry remains shared per asset",
+    "logical world density can exceed rendered density"
+  ],
+  "gold_blockers": ["real browser GPU benchmark","visual capture at low/medium/high density","final foliage materials and alpha strategy","wind shader validation"]
+}
