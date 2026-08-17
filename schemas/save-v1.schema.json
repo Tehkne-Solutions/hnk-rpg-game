@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tehkne.solutions/hnk-afterworld/save-v1.schema.json",
+  "title": "HNK AFTERWORLD Save V1",
+  "type": "object",
+  "required": ["saveVersion", "worldTick", "seed", "entities"],
+  "properties": {
+    "saveVersion": { "const": 1 },
+    "worldTick": { "type": "integer", "minimum": 0 },
+    "seed": { "type": "integer" },
+    "entities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["entityId", "definitionId", "regionId", "lifecycleState"],
+        "properties": {
+          "entityId": { "type": "string", "minLength": 1 },
+          "definitionId": { "type": "string", "minLength": 1 },
+          "regionId": { "type": "string", "minLength": 1 },
+          "lifecycleState": { "type": "string", "enum": ["active", "inactive", "dead", "destroyed"] }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}
