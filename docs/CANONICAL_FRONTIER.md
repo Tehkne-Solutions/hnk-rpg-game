@@ -2,10 +2,10 @@
 
 **Tehkné Solutions**
 
-Current Assets Forge frontier: **AF-001BM — Wells, Groundwater Extraction, Depletion & Contamination Runtime**.
+Current Assets Forge frontier: **AF-001BN — Water Quality, Potability, Filtration & Treatment Runtime**.
 
-AF-001BM extends AF-001BL with well yield, groundwater extraction, water-table drawdown, recharge recovery, spring/wetland support feedback and localized contaminant transport/decay.
+AF-001BN extends AF-001BM by turning source water and groundwater contamination into playable water-quality state: turbidity, pathogen and chemical loads, potability assessment, treatment sequences, mixing and persistent treated-water quality.
 
-AF-001BL compatibility remains preserved.
+AF-001BM compatibility remains preserved.
 
 Completion rule remains paired: an AF is complete only after runtime is published in `hnk-rpg-game` and asset/data status is published in `hnk-rpg-game-assets`.
