@@ -2,10 +2,10 @@
 
 **Tehkné Solutions**
 
-Current Assets Forge frontier: **AF-001AU — Underwater Exploration, Breath & Aquatic Environment Runtime**.
+Current Assets Forge frontier: **AF-001AV — Aquatic Ecology, Fish Behavior & Underwater Life System**.
 
-AF-001AU extends AF-001AT water traversal into underwater exploration with breath, submersion recovery, depth-based visibility/light reduction, turbidity, underwater current, control degradation under exhaustion and underwater risk assessment.
+AF-001AV extends AF-001AU underwater exploration into living aquatic ecology with habitat suitability, schooling, fear response, territorial behavior, bottom foraging and population targets driven by depth, current, turbidity and habitat conditions.
 
-AF-001AT compatibility remains preserved, and underwater rendering remains explicitly non-emissive.
+AF-001AU compatibility remains preserved. Aquatic life remains explicitly non-emissive and future rendering will reuse this behavior core.
 
 Completion rule remains paired: an AF is complete only after runtime is published in `hnk-rpg-game` and asset/data status is published in `hnk-rpg-game-assets`.
