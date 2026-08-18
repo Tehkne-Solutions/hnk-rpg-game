@@ -2,10 +2,8 @@
 
 **Tehkné Solutions**
 
-The synchronized Assets Forge frontier is **AF-001AM — Dynamic Sky, Weather & World Atmosphere**.
+Current Assets Forge frontier: **AF-001AN — Procedural Sky Rendering & Weather VFX Runtime**.
 
-This synchronization folds the cumulative work from AF-001AE through AF-001AM into the canonical game repository without replacing the existing Unity/M10-A0 architecture bootstrap.
+AF-001AN adds a procedural sky canvas composited behind the WebGL world, time/weather-driven natural sky palettes, sun/moon, stars, cloud masses, rain, mist and wind VFX with adaptive quality budgeting. It also fixes the AF-001AM runtime-hook exposure regression.
 
-## Completion rule
-
-Beginning with AF-001AN, an Assets Forge stage is not complete until its runtime changes are published to `Tehkne-Solutions/hnk-rpg-game` and its visual/data assets are published to `Tehkne-Solutions/hnk-rpg-game-assets`.
+Completion rule remains paired: an AF is complete only after runtime is published in `hnk-rpg-game` and asset/data status is published in `hnk-rpg-game-assets`.

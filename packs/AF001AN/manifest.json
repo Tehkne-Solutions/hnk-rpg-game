@@ -1,0 +1,10 @@
+{
+  "stage": "AF-001AN",
+  "signature": "Tehkné Solutions",
+  "name": "Procedural Sky Rendering & Weather VFX Runtime",
+  "base_frontier": "AF-001AM",
+  "package": "HNK_AFTERWORLD_AF-001AN_RUNTIME_DELTA_v0.1.zip",
+  "sha256": "bef2f9ed4cc2806b6d33fde12675486e4bd2e54d24c9148c8991ce5fe663c411",
+  "local_gates": "29/29 suites PASS",
+  "browser_visual": "fail-closed until WebGL capture"
+}
