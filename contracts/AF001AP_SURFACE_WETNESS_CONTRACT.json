@@ -1,0 +1,21 @@
+{
+  "stage": "AF-001AP",
+  "name": "Surface Wetness, Rain Accumulation & Environmental Materials",
+  "signature": "Tehkné Solutions",
+  "status": "IMPLEMENTED / MATERIAL RESPONSE CORE",
+  "runtime": {
+    "rain_to_wetness": true,
+    "material_specific_absorption": true,
+    "regional_drying": true,
+    "puddle_accumulation": true,
+    "material_appearance_descriptor": true,
+    "AF001AO_compatibility_preserved": true
+  },
+  "gold_blockers": [
+    "PBR shader wetness uniforms",
+    "actual puddle geometry/decal rendering",
+    "terrain slope drainage",
+    "browser visual captures",
+    "artist-reviewed material response"
+  ]
+}
