@@ -1,0 +1,7 @@
+{
+  "stage":"AF-001BH",
+  "name":"Vegetation Succession, Disturbance Recovery & Dynamic Biome Shift",
+  "signature":"Tehkné Solutions",
+  "runtime":{"community_composition":true,"disturbance_application":true,"multi_day_recovery":true,"abandonment_succession":true,"flood_wetland_shift":true,"overgrazing_scrub_shift":true,"fire_reset":true,"dynamic_biome_classification":true,"AF001BG_compatibility_preserved":true},
+  "design_rules":["biome identity emerges from persistent community composition rather than fixed labels","disturbances alter vegetation composition immediately but recovery occurs over time","abandonment may drive grassland toward scrub and later woodland","persistent inundation may shift shoreline toward wetland","repeated overgrazing can suppress grass and favor scrub","fire can reset woody succession without permanently locking the biome","dynamic biome shifts preserve continuity with prior vegetation state","succession never uses emissive or glow feedback"]
+}
