@@ -1,0 +1,26 @@
+{
+  "stage": "AF-001BE",
+  "name": "Cross-Ecosystem Food Web & Terrestrial Predator Bridge",
+  "signature": "Tehkné Solutions",
+  "status": "IMPLEMENTED / CROSS-ECOSYSTEM ECOLOGY CORE",
+  "runtime": {
+    "aquatic_to_shore_resource_transfer": true,
+    "shore_to_terrestrial_predation": true,
+    "terrestrial_to_shore_resource_transfer": true,
+    "wetland_scaled_connectivity": true,
+    "drying_penalty": true,
+    "population_creation_prevented": true,
+    "multi_day_persistence": true,
+    "AF001BD_compatibility_preserved": true
+  },
+  "design_rules": [
+    "cross-ecosystem feeding transfers pressure between existing populations and resources",
+    "predation cannot create biomass or individuals",
+    "wetland expansion increases aquatic-terrestrial connectivity",
+    "drying and shoreline loss reduce cross-ecosystem feeding intensity",
+    "terrestrial predators may hunt at shorelines only when prey is locally available",
+    "fish may consume shoreline-derived insects when habitat overlap permits",
+    "cross-ecosystem state persists across world days",
+    "cross-ecosystem ecology never uses emissive or glow feedback"
+  ]
+}
