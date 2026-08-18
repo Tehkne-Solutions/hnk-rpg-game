@@ -2,10 +2,10 @@
 
 **Tehkné Solutions**
 
-Current Assets Forge frontier: **AF-001AV — Aquatic Ecology, Fish Behavior & Underwater Life System**.
+Current Assets Forge frontier: **AF-001AW — Aquatic Food Web, Predation & Population Persistence**.
 
-AF-001AV extends AF-001AU underwater exploration into living aquatic ecology with habitat suitability, schooling, fear response, territorial behavior, bottom foraging and population targets driven by depth, current, turbidity and habitat conditions.
+AF-001AW extends AF-001AV aquatic ecology with trophic resources, feeding energy, predator/prey pressure, reproduction, natural mortality, resource regrowth and multi-day population persistence.
 
-AF-001AU compatibility remains preserved. Aquatic life remains explicitly non-emissive and future rendering will reuse this behavior core.
+Predation requires prey, predators and hunger; population growth requires energy surplus and habitat capacity. AF-001AV compatibility remains preserved.
 
 Completion rule remains paired: an AF is complete only after runtime is published in `hnk-rpg-game` and asset/data status is published in `hnk-rpg-game-assets`.
