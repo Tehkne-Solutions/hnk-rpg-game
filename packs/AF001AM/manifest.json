@@ -1,0 +1,13 @@
+{
+  "stage": "AF-001AM",
+  "signature": "Tehkné Solutions",
+  "synchronized_lineage": ["AF-001AE", "AF-001AF", "AF-001AG", "AF-001AH", "AF-001AI", "AF-001AJ", "AF-001AK", "AF-001AL", "AF-001AM"],
+  "game_snapshot": {
+    "file": "HNK_AFTERWORLD_AF-001AM_DynamicSkyWeatherWorldAtmosphere_v0.1.zip",
+    "bytes": 1042582,
+    "sha256": "2957dcf73500d54a4daadd128b2ec9374245c54f08beb17764d2b8896b1e0b71"
+  },
+  "canonical_asset_repository": "Tehkne-Solutions/hnk-rpg-game-assets",
+  "asset_stage": "AF-001AM",
+  "completion_rule": "Every AF stage after AF-001AM must be published to hnk-rpg-game and hnk-rpg-game-assets before the stage is considered complete."
+}
