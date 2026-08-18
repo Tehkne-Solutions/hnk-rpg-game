@@ -1,0 +1,9 @@
+{
+  "stage": "AF-001AM",
+  "name": "Dynamic Sky, Weather & World Atmosphere",
+  "signature": "Tehkné Solutions",
+  "status": "IMPLEMENTED / RUNTIME CORE",
+  "counts": {"day_phases": 4, "weather_states": 5, "regional_modifiers": 3},
+  "runtime": {"world_time_to_sky": true, "deterministic_weather_scheduler": true, "regional_weather_bias": true, "weather_visibility_cap": true, "weather_to_atmospheric_perspective": true, "night_without_neon": true},
+  "gold_blockers": ["real cloud rendering", "rain particle system", "wind deformation hookup", "sky gradient / celestial rendering", "browser capture across day phases", "storm audio and lightning implementation"]
+}
