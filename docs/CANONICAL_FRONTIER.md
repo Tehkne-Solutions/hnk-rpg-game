@@ -2,10 +2,10 @@
 
 **Tehkné Solutions**
 
-Current Assets Forge frontier: **AF-001AX — Aquatic Reproduction, Eggs, Nurseries & Life Cycle Runtime**.
+Current Assets Forge frontier: **AF-001AY — Seasons, Water Temperature & Reproductive Cycles**.
 
-AF-001AX extends AF-001AW aquatic food-web persistence with nursery suitability, spawn gating, eggs, juveniles, maturation, juvenile mortality and parental-care modifiers tied to spatial habitat conditions.
+AF-001AY connects AF-001AX aquatic lifecycle to a four-season annual calendar, regional water temperature, thermal inertia, species spawn windows, temperature suitability and seasonal migration intent.
 
-Life-cycle state persists across world days and population growth is now tied to nursery quality rather than abstract births alone. AF-001AW compatibility remains preserved.
+North Woodland water changes temperature more slowly than Ring Basin; reproduction and migration now depend on season and temperature instead of habitat quality alone. AF-001AX compatibility remains preserved.
 
 Completion rule remains paired: an AF is complete only after runtime is published in `hnk-rpg-game` and asset/data status is published in `hnk-rpg-game-assets`.
