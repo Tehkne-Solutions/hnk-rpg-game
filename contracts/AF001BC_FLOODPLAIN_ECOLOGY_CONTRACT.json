@@ -1,0 +1,8 @@
+{
+  "stage":"AF-001BC",
+  "name":"Floodplain Vegetation, Wetland Ecology & Inundation Response",
+  "signature":"Tehkné Solutions",
+  "status":"IMPLEMENTED / WETLAND ECOLOGY CORE",
+  "runtime":{"vegetation_inundation_response":true,"wetland_habitat_state":true,"recovery_after_recession":true,"regional_wetland_persistence":true,"community_transition":true,"carrying_capacity_delta":true,"AF001BB_compatibility_preserved":true},
+  "design_rules":["vegetation response follows inundation duration and soil wetness","reeds and sedges expand into persistently wet floodplain cells","dry grasses and brush decline under sustained inundation","vegetation can recover after water recedes according to species recovery rate","wetland habitat emerges from hydrology rather than appearing as a static biome decal","North Woodland retains wetland state longer than Ring Basin","habitat changes alter carrying capacity but do not spawn animals directly","floodplain ecology never uses emissive or glow feedback"]
+}
