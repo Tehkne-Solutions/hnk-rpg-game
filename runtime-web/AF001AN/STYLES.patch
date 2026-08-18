@@ -1,0 +1,6 @@
+--- AF001AM/web/styles.css
++++ AF001AN/web/styles.css
+@@
++#sky{position:fixed;inset:0;width:100vw;height:100vh;z-index:0;pointer-events:none}
++#view{position:fixed;inset:0;z-index:1;background:transparent}
++body>*:not(#sky):not(#view){z-index:2}

@@ -1,0 +1,27 @@
+{
+  "stage": "AF-001AN",
+  "name": "Procedural Sky Rendering & Weather VFX Runtime",
+  "signature": "Tehkné Solutions",
+  "status": "IMPLEMENTED / CANVAS SKY + WEBGL COMPOSITE",
+  "runtime": {
+    "procedural_sky_canvas": true,
+    "webgl_alpha_composite": true,
+    "sun_moon": true,
+    "stars": true,
+    "clouds": true,
+    "rain": true,
+    "mist": true,
+    "wind_streaks": true,
+    "weather_time_binding": true,
+    "adaptive_vfx_quality": true,
+    "AF001AM_hook_regression_fixed": true
+  },
+  "visual_rules": [
+    "sky uses natural phase palettes",
+    "clouds are opaque atmospheric masses rather than glowing sprites",
+    "night uses low ambient visibility without neon edge lighting",
+    "rain and mist respond to regional weather",
+    "VFX counts scale with runtime quality budget",
+    "no persistent lightning or emissive navigation"
+  ]
+}

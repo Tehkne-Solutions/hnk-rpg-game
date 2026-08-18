@@ -1,0 +1,6 @@
+--- AF001AM/web/index.html
++++ AF001AN/web/index.html
+@@
+ <body>
++  <canvas id="sky" aria-hidden="true"></canvas>
+   <canvas id="view" aria-label="HNK AFTERWORLD 3D viewport"></canvas>

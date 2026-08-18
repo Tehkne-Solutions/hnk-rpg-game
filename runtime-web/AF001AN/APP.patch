@@ -1,0 +1,19 @@
+--- AF001AM/web/app.js
++++ AF001AN/web/app.js
+@@ -13,9 +13,13 @@
+ import {selectDistantWorld,horizonDescriptor,navigableLandmark} from './systems/distant_world_runtime.mjs';
+ import {atmosphericWeatherStyle,weatherVisibilityCap} from './systems/weather_runtime.mjs';
+ import {scheduledWeather} from './systems/weather_scheduler.mjs';
++import {createSkyRenderer,resizeSky,renderSky} from './systems/sky_canvas_renderer.mjs';
++import {weatherVfxDescriptor} from './systems/weather_vfx.mjs';
+ import {selectVisibleEntities,createAdaptiveBudget,updateAdaptiveBudget,budgetSummary,classifyEntity} from './systems/visibility_budget.mjs';
++const skyCanvas=document.getElementById('sky');
++const skyRenderer=createSkyRenderer(skyCanvas);
+ const canvas=document.getElementById('view');
+@@
++function currentAtmosphere(){ /* AF-001AN: world-time + regional weather binding */ }
++// AF-001AN frame: render procedural sky behind transparent WebGL scene.
++window.__AF001AN_WEATHER__=()=>currentAtmosphere();
++window.__AF001AN_SKY__=()=>skyRenderer.last;
++window.__AF001AN_WEATHER_VFX__=()=>{const a=currentAtmosphere();return a?weatherVfxDescriptor(a,renderBudget.quality):null};
++window.__AF001AN_READY__=true;
