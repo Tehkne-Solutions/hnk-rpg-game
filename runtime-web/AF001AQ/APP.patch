@@ -1,0 +1,16 @@
+--- AF001AP/web/app.js
++++ AF001AQ/web/app.js
+@@
++import {waterCellStep,puddleGeometry} from './systems/terrain_drainage.mjs';
+@@
++let terrainDrainageProfile=null,terrainWaterState={};
+@@ metadata
++if(!terrainDrainageProfile)terrainDrainageProfile=await fetchJsonCached('./assets/environment/terrain_drainage_profile.json');
+@@ environment frame
++terrainWaterState.main=waterCellStep(terrainWaterState.main,{rain:currentPrecipResponse.effectiveRain,wind:currentWindField.base,slope:{x:.06,z:.03},concavity:travelState.currentRegion==='NORTH_WOODLAND'?.72:.34,dt,materialId:travelState.currentRegion==='NORTH_WOODLAND'?'SOIL':'STONE',regionId:travelState.currentRegion,profile:terrainDrainageProfile});
++telemetry.terrainWater={...terrainWaterState.main,puddle:puddleGeometry(terrainDrainageProfile,terrainWaterState.main,travelState.currentRegion==='NORTH_WOODLAND'?.72:.34)};
+@@ automation
++window.__AF001AQ_WATER__=()=>({state:terrainWaterState,profile:terrainDrainageProfile});
++window.__AF001AQ_READY__=true;
++
++AF-001AP compatibility hooks remain preserved.
