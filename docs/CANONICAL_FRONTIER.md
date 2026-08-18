@@ -2,10 +2,10 @@
 
 **Tehkné Solutions**
 
-Current Assets Forge frontier: **AF-001BK — River Morphology, Bank Erosion & Sediment-Driven Channel Change**.
+Current Assets Forge frontier: **AF-001BL — Groundwater, Water Table, Springs & Aquifer Recharge Runtime**.
 
-AF-001BK extends AF-001BJ sediment transport into persistent river morphology: bank erosion, bend asymmetry, sediment deposition, gradual channel width/depth change, lateral migration, aggradation/incision and floodplain-connectivity feedback.
+AF-001BL closes the subterranean hydrology loop with infiltration-driven aquifer recharge, persistent storage, water-table response, spring activation, baseflow memory and dry-season support for streams and wetlands.
 
-AF-001BJ compatibility remains preserved.
+AF-001BK compatibility remains preserved.
 
 Completion rule remains paired: an AF is complete only after runtime is published in `hnk-rpg-game` and asset/data status is published in `hnk-rpg-game-assets`.
