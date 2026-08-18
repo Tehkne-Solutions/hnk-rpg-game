@@ -2,10 +2,10 @@
 
 **Tehkné Solutions**
 
-Current Assets Forge frontier: **AF-001BP — Hunger, Calories, Macronutrients & Energy Balance Runtime**.
+Current Assets Forge frontier: **AF-001BQ — Food Spoilage, Preservation, Cooking & Food Safety Runtime**.
 
-AF-001BP extends AF-001BO hydration into nutrition with activity energy demand, energy balance, satiety/hunger states, calorie intake, independent protein/fat/carbohydrate tracking and performance effects under deficit.
+AF-001BQ extends AF-001BP nutrition with temperature-driven spoilage, food-specific shelf life, pathogen risk, cooking, drying, smoking, salting, cold storage, nutrient-retention tradeoffs and consumption illness risk.
 
-AF-001BO compatibility remains preserved.
+AF-001BP compatibility remains preserved.
 
 Completion rule remains paired: an AF is complete only after runtime is published in `hnk-rpg-game` and asset/data status is published in `hnk-rpg-game-assets`.
