@@ -1,0 +1,5 @@
+{
+  "stage":"AF-001AX","name":"Aquatic Reproduction, Eggs, Nurseries & Life Cycle Runtime","signature":"Tehkné Solutions","status":"IMPLEMENTED / AQUATIC LIFECYCLE CORE",
+  "runtime":{"nursery_suitability":true,"spawn_gating":true,"egg_stage":true,"juvenile_stage":true,"maturation":true,"juvenile_mortality":true,"parental_care_modifier":true,"multi_day_persistence":true,"AF001AW_compatibility_preserved":true},
+  "design_rules":["spawning requires mature adults and a suitable nursery habitat","eggs transition to juveniles only after species incubation time","juveniles mature only after species-specific development time","juvenile mortality is reduced by cover and parental care","strong current or unsuitable depth can suppress spawning","population growth becomes spatially tied to nursery quality","life-cycle state persists across world days","aquatic reproduction never uses emissive or glow feedback"]
+}
