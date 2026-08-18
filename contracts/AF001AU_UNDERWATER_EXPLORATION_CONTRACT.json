@@ -1,0 +1,8 @@
+{
+  "stage":"AF-001AU",
+  "name":"Underwater Exploration, Breath & Aquatic Environment Runtime",
+  "signature":"Tehkné Solutions",
+  "status":"IMPLEMENTED / UNDERWATER EXPLORATION CORE",
+  "runtime":{"breath_system":true,"surface_recovery":true,"depth_visibility":true,"turbidity":true,"underwater_current":true,"control_loss_on_exhaustion":true,"underwater_risk":true,"AF001AT_compatibility_preserved":true},
+  "design_rules":["breath drains only while the head is submerged","surfacing restores breath quickly without a loading transition","deeper water reduces visibility and available light","turbid water reduces visibility before it changes color identity","underwater current continues to influence character motion","exhausted breath first reduces control and stamina before any lethal policy","underwater exploration supports ruins, caves and aquatic ecology as future content","underwater rendering never uses emissive or glow feedback"]
+}
