@@ -1,0 +1,8 @@
+{
+  "stage":"AF-001AT",
+  "name":"Water Traversal, Depth & Current Gameplay Runtime",
+  "signature":"Tehkné Solutions",
+  "status":"IMPLEMENTED / WATER TRAVERSAL CORE",
+  "runtime":{"depth_bands":true,"wading":true,"swimming":true,"current_push":true,"stamina_cost":true,"exhaustion_upstream_penalty":true,"crossing_risk":true,"AF001AS_compatibility_preserved":true},
+  "design_rules":["ankle-deep water preserves normal exploration with a small speed penalty","waist-deep water becomes deliberate wading and consumes stamina","swimming starts only when depth exceeds the configured wading threshold","current pushes the character downstream independently of input","strong current increases stamina cost while swimming or wading","exhaustion does not instantly kill the character but removes effective upstream progress","temporary streams from AF-001AR remain normally traversable","water traversal never uses emissive or glow feedback"]
+}
