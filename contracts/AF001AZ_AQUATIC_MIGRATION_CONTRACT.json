@@ -1,0 +1,26 @@
+{
+  "stage": "AF-001AZ",
+  "name": "Aquatic Migration Routes, Connectivity & Seasonal Movement",
+  "signature": "Tehkné Solutions",
+  "status": "IMPLEMENTED / AQUATIC MIGRATION CORE",
+  "runtime": {
+    "watershed_graph": true,
+    "route_finding": true,
+    "barrier_tolerance": true,
+    "seasonal_targets": true,
+    "capacity_limited_movement": true,
+    "population_conservation": true,
+    "nursery_direction_support": true,
+    "AF001AY_compatibility_preserved": true
+  },
+  "design_rules": [
+    "migration follows connected watershed routes rather than teleportation",
+    "upstream movement costs more than downstream movement",
+    "barriers may block species with low tolerance",
+    "season determines preferred migration direction or holding behavior",
+    "destination capacity limits incoming population",
+    "migration redistributes population without creating or destroying individuals",
+    "nursery migration favors habitats compatible with species life-cycle needs",
+    "aquatic migration never uses emissive or glow feedback"
+  ]
+}
