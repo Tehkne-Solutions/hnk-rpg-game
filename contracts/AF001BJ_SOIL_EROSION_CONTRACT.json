@@ -1,0 +1,7 @@
+{
+  "stage":"AF-001BJ",
+  "name":"Soil Erosion, Sediment Transport & Landscape Recovery Runtime",
+  "signature":"Tehkné Solutions",
+  "runtime":{"erosion_risk":true,"vegetation_protection":true,"post_fire_exposure":true,"sediment_transport":true,"wetland_deposition":true,"turbidity_delta":true,"recovery_cover":true,"multi_day_persistence":true,"AF001BI_compatibility_preserved":true},
+  "design_rules":["erosion increases with slope, runoff, bare soil and post-fire exposure","vegetation cover and root structure reduce soil loss","sediment moves downstream instead of disappearing","wetlands and floodplains capture more sediment than fast rivers","sediment deposition may raise turbidity and alter habitat quality","vegetation recovery progressively reduces erosion risk","erosion and deposition persist across world days","erosion never uses emissive or glow feedback"]
+}
