@@ -1,0 +1,24 @@
+--- AF001AN/web/app.js
++++ AF001AO/web/app.js
+@@
++import {windField,entityWindOffset,precipitationResponse} from './systems/environment_response.mjs';
+@@
++let environmentResponseProfile=null,currentWindField=null,currentPrecipResponse=null;
+@@
++if(!environmentResponseProfile)environmentResponseProfile=await fetchJsonCached('./assets/environment/environment_response_profile.json');
+@@ frame atmosphere
++currentWindField=windField({wind:atm.wind,regionId:travelState.currentRegion,time:now/1000,profile:environmentResponseProfile});
++currentPrecipResponse=precipitationResponse(atm,currentWindField);
++atm.precipitation=currentPrecipResponse.effectiveRain;
++atm.wind=Math.min(1.4,currentWindField.base);
++atm.fogBoost=currentPrecipResponse.mistPersistence;
+@@ entity draw
++const wr=entityWindOffset(e,classifyEntity(e),currentWindField,now/1000,environmentResponseProfile);
++visualYaw+=wr.yaw;
++visualScale*=wr.scaleY;
+@@ automation
++window.__AF001AO_ENVIRONMENT__=()=>({wind:currentWindField,precipitation:currentPrecipResponse,region:travelState.currentRegion});
++window.__AF001AO_WEATHER__=window.__AF001AN_WEATHER__;
++window.__AF001AO_SKY__=window.__AF001AN_SKY__;
++window.__AF001AO_WEATHER_VFX__=window.__AF001AN_WEATHER_VFX__;
++window.__AF001AO_READY__=true;
