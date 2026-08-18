@@ -1,0 +1,8 @@
+{
+  "stage":"AF-001AV",
+  "name":"Aquatic Ecology, Fish Behavior & Underwater Life System",
+  "signature":"Tehkné Solutions",
+  "status":"IMPLEMENTED / AQUATIC ECOLOGY CORE",
+  "runtime":{"habitat_suitability":true,"schooling":true,"fear_response":true,"territorial_behavior":true,"bottom_foraging":true,"population_targets":true,"player_proximity_response":true,"AF001AU_compatibility_preserved":true},
+  "design_rules":["fish behavior is driven by habitat conditions rather than random wandering","schooling species preserve cohesion while reacting to threats","territorial species defend a local radius instead of chasing indefinitely","bottom species prefer low vertical movement and sheltered substrate","player proximity increases fear response according to species temperament","poor depth, current or turbidity conditions reduce habitat suitability","aquatic populations respond to food density and carrying capacity","aquatic life never uses emissive or glow feedback"]
+}
