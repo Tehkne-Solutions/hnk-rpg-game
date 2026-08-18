@@ -2,10 +2,10 @@
 
 **Tehkné Solutions**
 
-Current Assets Forge frontier: **AF-001AZ — Aquatic Migration Routes, Connectivity & Seasonal Movement**.
+Current Assets Forge frontier: **AF-001BA — Dynamic Aquatic Barriers, Floods, Dams & Connectivity Changes**.
 
-AF-001AZ turns AF-001AY seasonal migration intent into connected watershed movement with route-finding, barrier tolerance, destination capacity and population conservation.
+AF-001BA extends AF-001AZ migration routes with dynamic barriers and time-limited connectivity events. Floods and dam breaks can open temporary passages; droughts and landslides can isolate routes. Species-specific barrier tolerance still governs passability after event modifiers are applied.
 
-Migration remains region-connected and seasonal instead of teleporting populations. AF-001AY compatibility remains preserved.
+AF-001AZ compatibility remains preserved. Connectivity state is serializable independently of rendering.
 
 Completion rule remains paired: an AF is complete only after runtime is published in `hnk-rpg-game` and asset/data status is published in `hnk-rpg-game-assets`.
