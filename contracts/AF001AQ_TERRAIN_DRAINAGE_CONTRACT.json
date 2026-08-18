@@ -1,0 +1,24 @@
+{
+  "stage": "AF-001AQ",
+  "name": "Terrain Drainage, Puddle Geometry & Water Flow Runtime",
+  "signature": "Tehkné Solutions",
+  "status": "IMPLEMENTED / WATER FLOW CORE",
+  "runtime": {
+    "slope_driven_runoff": true,
+    "concavity_retention": true,
+    "regional_drainage": true,
+    "puddle_geometry_descriptor": true,
+    "material_runoff": true,
+    "AF001AP_compatibility_preserved": true
+  },
+  "design_rules": [
+    "water follows slope before forming standing puddles",
+    "depressions retain more water than convex ground",
+    "stone and CIV-00 produce more runoff than soil",
+    "North Woodland keeps more shallow standing water after rain",
+    "Ring Basin drains quickly under exposed wind and open terrain",
+    "puddle geometry remains shallow and grounded",
+    "water flow is environmental simulation, not a navigation decal",
+    "water never uses emissive or glow feedback"
+  ]
+}
