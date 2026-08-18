@@ -1,0 +1,8 @@
+{
+  "stage":"AF-001BD",
+  "name":"Wetland Fauna, Amphibians, Insects & Shoreline Food Web",
+  "signature":"Tehkné Solutions",
+  "status":"IMPLEMENTED / WETLAND FAUNA CORE",
+  "runtime":{"habitat_suitability":true,"amphibian_breeding":true,"insect_resource_regrowth":true,"predator_prey_pressure":true,"flood_tolerance":true,"drying_pressure":true,"multi_day_persistence":true,"AF001BC_compatibility_preserved":true},
+  "design_rules":["wetland fauna appears only where floodplain habitat is suitable","amphibian breeding depends on sustained wetness rather than instantaneous rain","insect abundance links wetland productivity to amphibian food supply","small predators bridge shoreline and terrestrial food webs","flood tolerance controls survival under prolonged inundation","habitat drying reduces breeding before it causes population collapse","shoreline food-web state persists across world days","wetland fauna never uses emissive or glow feedback"]
+}
