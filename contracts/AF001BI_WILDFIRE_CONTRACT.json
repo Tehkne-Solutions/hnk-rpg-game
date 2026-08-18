@@ -1,0 +1,7 @@
+{
+  "stage":"AF-001BI",
+  "name":"Wildfire, Fuel Load, Fire Spread & Post-Fire Ecology Runtime",
+  "signature":"Tehkné Solutions",
+  "runtime":{"fuel_load":true,"moisture_gated_ignition":true,"wind_biased_spread":true,"wetland_firebreak":true,"fuel_consumption":true,"post_fire_recovery":true,"ash_fertility":true,"erosion_risk":true,"fauna_fire_pressure":true,"AF001BH_compatibility_preserved":true},
+  "design_rules":["wildfire ignition depends on fuel, moisture and heat","wind biases spread direction and increases ember transport","wetland and saturated cells act as natural fire breaks","fire consumes available fuel instead of burning indefinitely","burned cells transition into post-fire recovery rather than static char decals","ash can temporarily improve fertility while exposed soil increases erosion risk","fauna pressure may increase near active fire but population is not deleted arbitrarily","wildfire never uses emissive or glow feedback as a gameplay indicator"]
+}
