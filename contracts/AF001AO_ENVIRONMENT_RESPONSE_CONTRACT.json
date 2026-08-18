@@ -1,0 +1,33 @@
+{
+  "stage": "AF-001AO",
+  "name": "Wind, Vegetation Motion & Environmental Response",
+  "signature": "Tehkné Solutions",
+  "status": "IMPLEMENTED / RUNTIME CORE",
+  "runtime": {
+    "weather_wind_binding": true,
+    "regional_wind_scaling": true,
+    "vegetation_visual_sway": true,
+    "collision_stability": true,
+    "rain_shelter": true,
+    "mist_advection": true,
+    "adaptive_weather_vfx_preserved": true,
+    "AF001AN_compatibility_aliases": true
+  },
+  "design_rules": [
+    "canopy moves slower and heavier than understory",
+    "grass and small foliage respond fastest to gusts",
+    "stone and CIV-00 landmarks remain effectively rigid",
+    "North Woodland shelters rain and wind near ground",
+    "Ring Basin amplifies exposed wind and gusts",
+    "rain direction follows wind without becoming a horizontal particle effect",
+    "mist advection is slower than rain movement",
+    "environment response never uses glow or emissive feedback"
+  ],
+  "gold_blockers": [
+    "vertex-level vegetation deformation shader",
+    "artist-reviewed sway amplitudes",
+    "branch/leaf hierarchy",
+    "rain occlusion volumes",
+    "browser visual capture"
+  ]
+}
