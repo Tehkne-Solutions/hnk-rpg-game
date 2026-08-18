@@ -1,0 +1,5 @@
+{
+  "stage":"AF-001BG","name":"Herbivory, Grazing Pressure, Seed Dispersal & Vegetation–Fauna Feedback","signature":"Tehkné Solutions",
+  "runtime":{"plant_biomass_consumption":true,"grazing_pressure":true,"regional_regrowth":true,"seed_bank":true,"seed_dispersal":true,"fertility_feedback":true,"community_shift":true,"multi_day_persistence":true,"AF001BF_compatibility_preserved":true},
+  "design_rules":["herbivores consume existing plant biomass rather than abstract food","grazing pressure scales with herbivore population and intake","plants recover according to regrowth, tolerance and regional recovery","seed dispersal redistributes reproductive potential without creating mature plants instantly","fertility return improves future regrowth but does not create biomass directly","overgrazing can suppress preferred plants and shift community composition","vegetation and herbivore state persist across world days","vegetation-fauna feedback never uses emissive or glow feedback"]
+}
