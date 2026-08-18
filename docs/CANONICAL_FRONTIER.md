@@ -2,10 +2,10 @@
 
 **Tehkné Solutions**
 
-Current Assets Forge frontier: **AF-001BD — Wetland Fauna, Amphibians, Insects & Shoreline Food Web**.
+Current Assets Forge frontier: **AF-001BE — Cross-Ecosystem Food Web & Terrestrial Predator Bridge**.
 
-AF-001BD extends AF-001BC floodplain ecology into living shoreline fauna with habitat suitability, amphibian breeding, insect resource regrowth, predator/prey pressure, flood tolerance, drying pressure and multi-day persistence.
+AF-001BE connects aquatic, shoreline and terrestrial ecology through resource transfer, shoreline predation, wetland-scaled connectivity, drying penalties and multi-day persistence while preventing population creation from bridge interactions.
 
-Wetland productivity now connects aquatic and terrestrial food-web foundations. AF-001BC compatibility remains preserved.
+AF-001BD compatibility remains preserved.
 
 Completion rule remains paired: an AF is complete only after runtime is published in `hnk-rpg-game` and asset/data status is published in `hnk-rpg-game-assets`.
