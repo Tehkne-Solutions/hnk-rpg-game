@@ -1,0 +1,8 @@
+{
+  "stage":"AF-001AY",
+  "name":"Seasons, Water Temperature & Reproductive Cycles",
+  "signature":"Tehkné Solutions",
+  "status":"IMPLEMENTED / SEASONAL AQUATIC ECOLOGY CORE",
+  "runtime":{"season_calendar":true,"regional_water_temperature":true,"thermal_inertia":true,"spawn_windows":true,"temperature_suitability":true,"seasonal_reproduction_modifier":true,"migration_intent":true,"AF001AX_compatibility_preserved":true},
+  "design_rules":["water temperature follows seasonal air temperature with regional thermal inertia","species spawning windows restrict otherwise suitable nursery conditions","temperature outside optimal range reduces reproductive success","seasonal migration changes preferred habitat without teleporting populations","North Woodland water changes temperature more slowly than Ring Basin","summer warming may push cold-preferring species deeper","annual cycles affect food-web and lifecycle pressure","seasonal ecology never uses emissive or glow feedback"]
+}
