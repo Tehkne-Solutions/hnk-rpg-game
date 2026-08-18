@@ -1,0 +1,5 @@
+{
+  "stage":"AF-001AW","name":"Aquatic Food Web, Predation & Population Persistence","signature":"Tehkné Solutions","status":"IMPLEMENTED / AQUATIC FOOD WEB CORE",
+  "runtime":{"trophic_resources":true,"feeding_energy":true,"predation":true,"reproduction":true,"natural_mortality":true,"resource_regrowth":true,"multi_day_persistence":true,"AF001AV_compatibility_preserved":true},
+  "design_rules":["food availability constrains population growth","predators reduce prey populations only when encounters and hunger justify predation","reproduction requires energy surplus and habitat capacity","natural mortality prevents unlimited population accumulation","resource pools regenerate at different rates","population state persists across simulation days","predator collapse may allow prey rebound","aquatic food webs never use emissive or glow feedback"]
+}
