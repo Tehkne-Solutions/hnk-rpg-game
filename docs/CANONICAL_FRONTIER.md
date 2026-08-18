@@ -2,10 +2,10 @@
 
 **Tehkné Solutions**
 
-Current Assets Forge frontier: **AF-001AP — Surface Wetness, Rain Accumulation & Environmental Materials**.
+Current Assets Forge frontier: **AF-001AQ — Terrain Drainage, Puddle Geometry & Water Flow Runtime**.
 
-AF-001AP connects weather/environment state to material response: material-specific wetness accumulation, puddle state, regional drying/drainage and appearance descriptors for soil, stone, wood, foliage and CIV-00 surfaces.
+AF-001AQ evolves AF-001AP surface wetness into spatial water behavior: slope-driven runoff, concavity retention, material-specific drainage, shallow puddle geometry descriptors and regional drying/drainage differences.
 
-North Woodland retains moisture longer; Ring Basin dries and drains faster under exposed wind. AF-001AO compatibility remains preserved.
+North Woodland retains more standing water; Ring Basin drains faster under exposed wind. AF-001AP compatibility remains preserved.
 
 Completion rule remains paired: an AF is complete only after runtime is published in `hnk-rpg-game` and asset/data status is published in `hnk-rpg-game-assets`.
