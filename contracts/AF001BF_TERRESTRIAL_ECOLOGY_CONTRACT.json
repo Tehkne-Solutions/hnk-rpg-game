@@ -1,0 +1,7 @@
+{
+  "stage":"AF-001BF",
+  "name":"Terrestrial Ecology Scheduler, Predator Territories & Cross-Biome Population Persistence",
+  "signature":"Tehkné Solutions",
+  "runtime":{"biome_population_persistence":true,"predator_territory_capacity":true,"local_hunting":true,"shoreline_hunting_bridge":true,"cross_biome_dispersal":true,"population_conservation_on_dispersal":true,"daily_scheduler":true,"AF001BE_compatibility_preserved":true},
+  "design_rules":["terrestrial populations persist by biome across world days","predator territories constrain local predator density","hunting requires prey to exist in the same or linked shoreline habitat","cross-biome dispersal redistributes individuals without creating population","wetland linkage increases shoreline hunting opportunities","prey scarcity reduces successful hunting and encourages dispersal","territory competition may force excess predators into neighboring biomes","terrestrial ecology never uses emissive or glow feedback"]
+}
