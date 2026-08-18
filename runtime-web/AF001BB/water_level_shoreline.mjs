@@ -1,0 +1,9 @@
+const clamp=(v,a,b)=>Math.max(a,Math.min(b,v));
+export function bodyLevelProfile(profile,type){return profile.waterBodies?.[type]||profile.waterBodies?.RIVER}
+export function regionalLevelProfile(profile,regionId){return profile.regional?.[regionId]||{levelResponse:1,shoreRetention:1,evaporation:1}}
+export function waterLevelStep(state,{bodyType='RIVER',regionId='RING_BASIN',eventDelta=0,rain=0,wind=0,dt=1,profile}={}){const b=bodyLevelProfile(profile,bodyType),r=regionalLevelProfile(profile,regionId),prev=state?.level??b.baseLevel,flood=Math.max(0,eventDelta)*b.floodGain*r.levelResponse,drought=Math.max(0,-eventDelta)*b.droughtLoss*r.levelResponse,rainGain=rain*.08*r.levelResponse,evap=(1-rain)*(.25+.75*wind)*r.evaporation*dt*.018,target=clamp(b.baseLevel+flood-drought+rainGain,0,2.2),retention=clamp(.38+.42*r.shoreRetention,0,1),level=clamp(prev*retention+target*(1-retention)-evap,0,2.2);return{level,delta:level-b.baseLevel}}
+export function shorelineDescriptor(profile,{bodyType='RIVER',levelDelta=0,baseRadius=10}={}){const b=bodyLevelProfile(profile,bodyType),expansion=levelDelta/Math.max(.04,b.shoreSlope);return{radius:Math.max(0,baseRadius+expansion),shoreShift:expansion,exposedBank:Math.max(0,-expansion),inundation:Math.max(0,expansion)}}
+export function floodplainActivation(profile,levelDelta){const out={};for(const[id,f]of Object.entries(profile.floodplainClasses||{}))out[id]={active:levelDelta>=f.activationDelta,habitatGain:levelDelta>=f.activationDelta?f.habitatGain:0};return out}
+export function traversalDepth(baseDepth,levelDelta){return Math.max(0,baseDepth+levelDelta)}
+export function channelConnectivity({baseDepth=.2,levelDelta=0,minDepth=.12}={}){return traversalDepth(baseDepth,levelDelta)>=minDepth}
+export function shorelineHabitatGain(profile,levelDelta){return Object.values(floodplainActivation(profile,levelDelta)).reduce((a,v)=>a+(v.active?v.habitatGain:0),0)}
