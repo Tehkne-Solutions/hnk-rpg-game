@@ -1,0 +1,16 @@
+--- AF001AO/web/app.js
++++ AF001AP/web/app.js
+@@
++import {updateSurfaceSet,materialAppearance} from './systems/surface_wetness.mjs';
+@@
++let surfaceWetnessProfile=null,surfaceWetnessState={};
+@@ metadata
++if(!surfaceWetnessProfile)surfaceWetnessProfile=await fetchJsonCached('./assets/environment/surface_wetness_profile.json');
+@@ environment frame
++surfaceWetnessState=updateSurfaceSet(surfaceWetnessState,{rain:currentPrecipResponse.effectiveRain,wind:currentWindField.base,dt,regionId:travelState.currentRegion,profile:surfaceWetnessProfile});
++telemetry.surfaceWetness=Object.fromEntries(Object.entries(surfaceWetnessState).map(([k,v])=>[k,{...v,appearance:materialAppearance(surfaceWetnessProfile,k,v)}]));
+@@ automation
++window.__AF001AP_SURFACES__=()=>({state:surfaceWetnessState,profile:surfaceWetnessProfile});
++window.__AF001AP_READY__=true;
++
++AF-001AO compatibility hooks remain preserved.
