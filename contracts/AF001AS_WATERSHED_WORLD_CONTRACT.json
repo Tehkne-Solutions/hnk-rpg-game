@@ -1,0 +1,26 @@
+{
+  "stage": "AF-001AS",
+  "name": "Persistent Rivers, Lakes & Watershed World System",
+  "signature": "Tehkné Solutions",
+  "status": "IMPLEMENTED / PERSISTENT HYDROLOGY CORE",
+  "runtime": {
+    "persistent_base_flow": true,
+    "groundwater_memory": true,
+    "rain_recharge": true,
+    "rivulet_recharge": true,
+    "watershed_accumulation": true,
+    "lake_storage": true,
+    "permanent_water_geometry_descriptor": true,
+    "AF001AR_compatibility_preserved": true
+  },
+  "design_rules": [
+    "persistent water bodies retain base flow even without current rainfall",
+    "rain and temporary rivulets recharge permanent watersheds",
+    "upstream watershed flow accumulates downstream",
+    "lakes buffer short-term rainfall spikes through storage",
+    "groundwater memory prevents springs from switching off immediately after dry weather",
+    "North Woodland watersheds recharge more strongly than Ring Basin",
+    "permanent water remains traversable where depth and current allow",
+    "watershed rendering never uses emissive or glow feedback"
+  ]
+}
