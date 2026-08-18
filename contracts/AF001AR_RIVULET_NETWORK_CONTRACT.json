@@ -1,0 +1,26 @@
+{
+  "stage": "AF-001AR",
+  "name": "Streams, Temporary Rivulets & Water Network Runtime",
+  "signature": "Tehkné Solutions",
+  "status": "IMPLEMENTED / TEMPORARY WATER NETWORK CORE",
+  "runtime": {
+    "runoff_connectivity": true,
+    "downhill_channels": true,
+    "upstream_accumulation": true,
+    "rain_activation": true,
+    "post_rain_decay": true,
+    "regional_channel_persistence": true,
+    "channel_geometry_descriptor": true,
+    "AF001AQ_compatibility_preserved": true
+  },
+  "design_rules": [
+    "temporary channels emerge from connected runoff rather than decorative lines",
+    "rivulets follow downhill drainage direction",
+    "multiple upstream cells may merge into a stronger downstream channel",
+    "channels weaken after rain stops and disappear when flow falls below threshold",
+    "North Woodland channels persist longer but move slower",
+    "Ring Basin channels move faster but disappear sooner",
+    "temporary streams remain shallow enough to preserve traversal",
+    "water networks never use emissive or glow feedback"
+  ]
+}
