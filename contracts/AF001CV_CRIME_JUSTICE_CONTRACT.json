@@ -1,0 +1,16 @@
+{
+  "signature":"Tehkné Solutions",
+  "stage":"AF-001CV",
+  "profile_id":"AFTERWORLD_CRIME_JUSTICE_V1",
+  "requires":["AF-001CU","AF-001CQ","AF-001CR"],
+  "invariants":[
+    "crime classification depends on an action plus applicable permission or claim context",
+    "accusation is not proof and proof is not world truth",
+    "evidence preserves source identity, reliability and directness",
+    "repeated reports from the same source do not count as independent corroboration",
+    "adjudication requires recognized authority and an explicit proof standard",
+    "sanctions and reputation consequences follow adjudicated outcomes rather than omniscient knowledge"
+  ],
+  "runtime":"web/systems/crime_justice.mjs",
+  "asset_profile":"web/assets/social/crime_justice_profile.json"
+}
