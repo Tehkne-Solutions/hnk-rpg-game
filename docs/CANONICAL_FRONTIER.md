@@ -2,10 +2,10 @@
 
 **Tehkné Solutions**
 
-Current Assets Forge frontier: **AF-001CX — Elections, Leadership Succession & Political Legitimacy Runtime**.
+Current Assets Forge frontier: **AF-001CY — Public Policy, Resource Allocation & Collective Decision Runtime**.
 
-AF-001CX extends AF-001CW governance with explicit selection methods, election/council vote records, mandate history, succession rules, leadership challenges/removal and political legitimacy derived from participation, procedural fairness, performance, trust, abuse and contestation. Authority is historical and procedural, never an untracked global flag.
+AF-001CY extends AF-001CX political legitimacy into concrete settlement policy: finite-resource budgets, explicit proposal criteria, collective-decision records, deferred proposals under scarcity and outcome-based trust/legitimacy feedback. Public decisions cannot create food, water, power, labor or materials; they only allocate what the settlement actually has.
 
-AF-001CW compatibility remains preserved.
+AF-001CX compatibility remains preserved.
 
 Completion rule remains paired: an AF is complete only after runtime is published in `hnk-rpg-game` and asset/data status is published in `hnk-rpg-game-assets`.
