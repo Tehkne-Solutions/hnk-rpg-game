@@ -4,6 +4,6 @@
 
 Canonical game/runtime repository for HNK: AFTERWORLD.
 
-Current canonical frontier: **AF-001CE — Worker Schedules, Needs & Autonomous Settlement Operations Runtime**.
+Current canonical frontier: **AF-001CF — Emergency Priorities, Worker Interruptions & Settlement Incident Response Runtime**.
 
 The project remains Web-first for rapid automated iteration. Runtime assets are sourced from `Tehkne-Solutions/hnk-rpg-game-assets` and synchronized into the local Web runtime during development/CI.
