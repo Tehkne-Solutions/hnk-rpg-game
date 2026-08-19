@@ -1,0 +1,17 @@
+{
+  "signature":"Tehkné Solutions",
+  "stage":"AF-001CP",
+  "profile_id":"AFTERWORLD_RUMORS_REPORTS_TRUST_V1",
+  "requires":["AF-001CO"],
+  "invariants":[
+    "reports carry explicit source and provenance rather than becoming world truth",
+    "retelling may reduce fidelity and increase distortion",
+    "source trust derives from relationship, accuracy history and contextual authority",
+    "independent corroboration increases confidence without erasing conflict",
+    "agents may hold conflicting beliefs about the same claim",
+    "belief updates are local to agents who actually receive a report",
+    "rumor propagation is deterministic from authored state and explicit inputs"
+  ],
+  "runtime":"web/systems/rumors_reports_trust.mjs",
+  "asset_profile":"web/assets/social/rumors_reports_trust_profile.json"
+}
