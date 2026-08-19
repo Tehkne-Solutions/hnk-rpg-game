@@ -1,0 +1,16 @@
+{
+  "signature":"Tehkné Solutions",
+  "stage":"AF-001CC",
+  "profile_id":"AFTERWORLD_HAULING_SUPPLY_ROUTING_V1",
+  "requires":["AF-001CB"],
+  "invariants":[
+    "resources move only through explicit deliveries",
+    "source inventory is conserved when a delivery is planned",
+    "equipment capacity determines required trip count",
+    "route distance and terrain affect delivery time and fatigue",
+    "unreachable or insufficient supply produces an explicit shortfall",
+    "delivery progress advances through simulation time and never teleports"
+  ],
+  "runtime":"web/systems/hauling_supply_routing.mjs",
+  "asset_profile":"web/assets/logistics/hauling_supply_routing_profile.json"
+}
