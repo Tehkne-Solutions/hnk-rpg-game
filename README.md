@@ -4,6 +4,6 @@
 
 Canonical game/runtime repository for HNK: AFTERWORLD.
 
-Current canonical frontier: **AF-001CP — Rumors, Reports, Trust & Information Propagation Runtime**.
+Current canonical frontier: **AF-001CQ — Reputation, Social Memory & Consequence Propagation Runtime**.
 
 The project remains Web-first for rapid automated iteration. Runtime assets are sourced from `Tehkne-Solutions/hnk-rpg-game-assets` and synchronized into the local Web runtime during development/CI.
