@@ -2,10 +2,10 @@
 
 **Tehkné Solutions**
 
-Current Assets Forge frontier: **AF-001CJ — Food Safety, Nutrition & Settlement Food Supply Runtime**.
+Current Assets Forge frontier: **AF-001CK — Agriculture, Foraging Regrowth & Renewable Food Production Runtime**.
 
-AF-001CJ extends AF-001CI public health with modeled food spoilage/contamination, property-specific preservation and cooking, nutrition-derived work-capacity effects, and settlement food-security calculations from stocked edible calories versus population needs. Foodborne risk remains causal and can feed AF-001CH epidemiology through explicit exposure.
+AF-001CK extends AF-001CJ food supply with soil/water/sunlight/temperature/season-dependent crop growth, harvest yield plus seed return, forage-patch regrowth toward carrying capacity, overharvest consequences and renewable food coverage derived from produced calories versus population need.
 
-AF-001CI compatibility remains preserved.
+AF-001CJ compatibility remains preserved.
 
 Completion rule remains paired: an AF is complete only after runtime is published in `hnk-rpg-game` and asset/data status is published in `hnk-rpg-game-assets`.
