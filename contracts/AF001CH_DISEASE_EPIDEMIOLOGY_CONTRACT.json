@@ -1,0 +1,17 @@
+{
+  "signature":"Tehkné Solutions",
+  "stage":"AF-001CH",
+  "profile_id":"AFTERWORLD_DISEASE_EPIDEMIOLOGY_V1",
+  "requires":["AF-001CG"],
+  "invariants":[
+    "infection requires modeled exposure and is never assigned by omniscient settlement state",
+    "incubation and symptoms progress through simulation time",
+    "resistance, immunity, protection and environment modify infection risk",
+    "isolation reduces transmission but requires an available isolation mode",
+    "treatment, rest, nutrition and care alter recovery without instantly deleting disease",
+    "symptomatic disease reduces worker capacity until recovery",
+    "outbreak status is derived from individual infections rather than stored as a magical global flag"
+  ],
+  "runtime":"web/systems/disease_epidemiology.mjs",
+  "asset_profile":"web/assets/health/disease_epidemiology_profile.json"
+}
