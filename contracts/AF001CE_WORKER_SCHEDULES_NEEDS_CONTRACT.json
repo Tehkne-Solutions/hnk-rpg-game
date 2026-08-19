@@ -1,0 +1,16 @@
+{
+  "signature":"Tehkné Solutions",
+  "stage":"AF-001CE",
+  "profile_id":"AFTERWORLD_WORKER_SCHEDULES_NEEDS_V1",
+  "requires":["AF-001CD"],
+  "invariants":[
+    "workers evaluate hunger, fatigue and rest before accepting normal jobs",
+    "off-shift workers do not accept normal work unless an emergency policy explicitly overrides",
+    "needs advance with simulation time",
+    "eating and resting alter need state rather than teleporting availability",
+    "autonomous job choice remains capability-gated",
+    "job priority competes with skill, fatigue and travel distance"
+  ],
+  "runtime":"web/systems/worker_schedules_needs.mjs",
+  "asset_profile":"web/assets/settlement/worker_schedules_needs_profile.json"
+}
