@@ -2,10 +2,10 @@
 
 **Tehkné Solutions**
 
-Current Assets Forge frontier: **AF-001CM — Shelter, Housing Quality & Thermal Comfort Runtime**.
+Current Assets Forge frontier: **AF-001CN — Power, Fuel & Settlement Utility Infrastructure Runtime**.
 
-AF-001CM extends AF-001CL weather/environmental stress with persistent shelter quality derived from structural integrity, weather protection, insulation, bed coverage and crowding; thermal comfort derived from ambient conditions, shelter envelope and clothing; and rest recovery/illness/work-capacity consequences derived from housing conditions rather than cosmetic shelter flags.
+AF-001CN extends AF-001CM shelter/environmental systems with finite power generation, fuel consumption, battery storage, priority-based load dispatch, brownouts, condition/runtime-driven maintenance demand and shared utility competition between water, medical, heating, communications, workshop and lighting loads.
 
-AF-001CL compatibility remains preserved.
+AF-001CM compatibility remains preserved.
 
 Completion rule remains paired: an AF is complete only after runtime is published in `hnk-rpg-game` and asset/data status is published in `hnk-rpg-game-assets`.

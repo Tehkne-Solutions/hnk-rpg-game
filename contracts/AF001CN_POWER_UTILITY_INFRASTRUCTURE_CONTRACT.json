@@ -1,0 +1,17 @@
+{
+  "signature":"Tehkné Solutions",
+  "stage":"AF-001CN",
+  "profile_id":"AFTERWORLD_POWER_UTILITY_INFRASTRUCTURE_V1",
+  "requires":["AF-001CM","AF-001CF"],
+  "invariants":[
+    "generation is limited by source condition, availability and fuel",
+    "batteries store finite energy with charge/discharge losses",
+    "loads are dispatched by explicit priority and minimum service requirements",
+    "brownouts emerge from insufficient available power rather than scripted flags",
+    "fuel is consumed over simulation time and can exhaust",
+    "maintenance demand derives from condition, runtime and criticality",
+    "critical utilities such as water, medical, shelter heat and communications compete for shared power"
+  ],
+  "runtime":"web/systems/power_utility_infrastructure.mjs",
+  "asset_profile":"web/assets/utilities/power_utility_profile.json"
+}
