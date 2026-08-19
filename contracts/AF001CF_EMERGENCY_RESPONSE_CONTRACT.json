@@ -1,0 +1,16 @@
+{
+  "signature":"Tehkné Solutions",
+  "stage":"AF-001CF",
+  "profile_id":"AFTERWORLD_SETTLEMENT_EMERGENCY_RESPONSE_V1",
+  "requires":["AF-001CE"],
+  "invariants":[
+    "incidents are prioritized from severity urgency spread risk and critical infrastructure impact",
+    "responders must satisfy required capabilities",
+    "high-priority incidents may interrupt normal jobs and override off-shift availability",
+    "suspended jobs are preserved rather than discarded",
+    "incident resolution advances through explicit responder effort over simulation time",
+    "workers resume suspended jobs after the emergency is resolved when still valid"
+  ],
+  "runtime":"web/systems/settlement_emergency_response.mjs",
+  "asset_profile":"web/assets/settlement/emergency_response_profile.json"
+}
