@@ -1,0 +1,16 @@
+{
+  "signature":"Tehkné Solutions",
+  "stage":"AF-001CZ",
+  "profile_id":"AFTERWORLD_PUBLIC_WORKS_INFRASTRUCTURE_V1",
+  "requires":["AF-001CY","AF-001CD","AF-001CB"],
+  "invariants":[
+    "public works advance through explicit ordered stages",
+    "each stage consumes authored materials and labor requirements",
+    "missing inputs create delay rather than implicit completion",
+    "completed infrastructure requires recurring maintenance resources",
+    "poor maintenance reduces condition and delivered benefit",
+    "abandoned projects remain persistent historical world state"
+  ],
+  "runtime":"web/systems/public_works_infrastructure.mjs",
+  "asset_profile":"web/assets/infrastructure/public_works_infrastructure_profile.json"
+}

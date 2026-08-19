@@ -2,10 +2,10 @@
 
 **Tehkné Solutions**
 
-Current Assets Forge frontier: **AF-001CY — Public Policy, Resource Allocation & Collective Decision Runtime**.
+Current Assets Forge frontier: **AF-001CZ — Public Works, Infrastructure Projects & Long-Term Construction Runtime**.
 
-AF-001CY extends AF-001CX political legitimacy into concrete settlement policy: finite-resource budgets, explicit proposal criteria, collective-decision records, deferred proposals under scarcity and outcome-based trust/legitimacy feedback. Public decisions cannot create food, water, power, labor or materials; they only allocate what the settlement actually has.
+AF-001CZ extends AF-001CY public policy into persistent multi-stage public works with explicit material/labor requirements, delays under scarcity, maintenance burden, condition decay, abandonment and benefit delivery proportional to built state and upkeep. Public decisions become physical world commitments rather than instant effects.
 
-AF-001CX compatibility remains preserved.
+AF-001CY compatibility remains preserved.
 
 Completion rule remains paired: an AF is complete only after runtime is published in `hnk-rpg-game` and asset/data status is published in `hnk-rpg-game-assets`.
