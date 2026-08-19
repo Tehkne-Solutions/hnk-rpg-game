@@ -1,0 +1,16 @@
+{
+  "signature":"Tehkné Solutions",
+  "stage":"AF-001CK",
+  "profile_id":"AFTERWORLD_AGRICULTURE_REGROWTH_V1",
+  "requires":["AF-001CJ"],
+  "invariants":[
+    "crop growth depends on modeled soil, water, sunlight, temperature and season suitability",
+    "harvest consumes crop readiness and returns physical yield plus recoverable seeds",
+    "forage patches regrow toward carrying capacity instead of respawning instantly",
+    "overharvesting reduces immediately available renewable food",
+    "renewable food coverage is derived from produced calories versus population need",
+    "agriculture and foraging remain simulation-time processes"
+  ],
+  "runtime":"web/systems/agriculture_regrowth.mjs",
+  "asset_profile":"web/assets/food/agriculture_regrowth_profile.json"
+}
