@@ -2,10 +2,10 @@
 
 **Tehkné Solutions**
 
-Current Assets Forge frontier: **AF-001CN — Power, Fuel & Settlement Utility Infrastructure Runtime**.
+Current Assets Forge frontier: **AF-001CO — Communications, Detection & Settlement Information Network Runtime**.
 
-AF-001CN extends AF-001CM shelter/environmental systems with finite power generation, fuel consumption, battery storage, priority-based load dispatch, brownouts, condition/runtime-driven maintenance demand and shared utility competition between water, medical, heating, communications, workshop and lighting loads.
+AF-001CO extends AF-001CN utilities with powered communications, range/terrain/weather-limited links, relay propagation, sensor detections with confidence, message classes and agent-local information receipt. Information no longer propagates globally: agents can act only on messages or detections that actually reached them.
 
-AF-001CM compatibility remains preserved.
+AF-001CN compatibility remains preserved.
 
 Completion rule remains paired: an AF is complete only after runtime is published in `hnk-rpg-game` and asset/data status is published in `hnk-rpg-game-assets`.
