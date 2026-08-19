@@ -30,7 +30,6 @@ scene.add(new THREE.HemisphereLight(0xd9dfcf,0x433b31,1.5));
 const sun=new THREE.DirectionalLight(0xfff2d7,2.2);sun.position.set(-10,16,8);sun.castShadow=true;scene.add(sun);
 const ground=new THREE.Mesh(new THREE.PlaneGeometry(120,120),new THREE.MeshStandardMaterial({color:0x30372a,roughness:1}));
 ground.rotation.x=-Math.PI/2;ground.receiveShadow=true;scene.add(ground);
-const grid=new THREE.GridHelper(120,60,0x333a30,0x242922);grid.position.y=.01;grid.material.transparent=true;grid.material.opacity=.12;scene.add(grid);
 
 const loader=new GLTFLoader();
 const keys=new Set();
@@ -54,5 +53,20 @@ async function boot(){
 function resize(){const w=innerWidth,h=innerHeight;renderer.setSize(w,h,false);camera.aspect=w/h;camera.updateProjectionMatrix()}
 addEventListener('resize',resize);resize();
 const clock=new THREE.Clock();
-function frame(){requestAnimationFrame(frame);const dt=Math.min(clock.getDelta(),.05);if(explorer){const v=new THREE.Vector3((keys.has('KeyD')?1:0)-(keys.has('KeyA')?1:0),0,(keys.has('KeyS')?1:0)-(keys.has('KeyW')?1:0));if(v.lengthSq()){v.normalize().multiplyScalar((keys.has('ShiftLeft')?5:2.8)*dt);explorer.position.add(v);controls.target.lerp(explorer.position.clone().add(new THREE.Vector3(0,1,0)),.12)}}controls.update();renderer.render(scene,camera)}
+function frame(){
+ requestAnimationFrame(frame);const dt=Math.min(clock.getDelta(),.05);
+ if(explorer){
+  const inputX=(keys.has('KeyD')?1:0)-(keys.has('KeyA')?1:0);
+  const inputZ=(keys.has('KeyW')?1:0)-(keys.has('KeyS')?1:0);
+  if(inputX||inputZ){
+   const forward=new THREE.Vector3();camera.getWorldDirection(forward);forward.y=0;forward.normalize();
+   const right=new THREE.Vector3().crossVectors(forward,new THREE.Vector3(0,1,0)).normalize();
+   const move=forward.multiplyScalar(inputZ).add(right.multiplyScalar(inputX)).normalize();
+   move.multiplyScalar((keys.has('ShiftLeft')?5:2.8)*dt);explorer.position.add(move);
+   const targetYaw=Math.atan2(move.x,move.z);explorer.rotation.y=targetYaw;
+   controls.target.lerp(explorer.position.clone().add(new THREE.Vector3(0,1,0)),.12);
+  }
+ }
+ controls.update();renderer.render(scene,camera)
+}
 boot();frame();
