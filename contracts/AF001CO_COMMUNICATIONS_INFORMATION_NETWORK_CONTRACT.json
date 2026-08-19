@@ -1,0 +1,17 @@
+{
+  "signature":"Tehkné Solutions",
+  "stage":"AF-001CO",
+  "profile_id":"AFTERWORLD_COMMUNICATIONS_INFORMATION_NETWORK_V1",
+  "requires":["AF-001CN"],
+  "invariants":[
+    "communications require powered transmitting and receiving infrastructure",
+    "range terrain weather and relay infrastructure determine whether a message can propagate",
+    "relays extend reach but do not create information",
+    "sensor detections are confidence-bearing observations rather than omniscient truth",
+    "agents gain communicated knowledge only from deliveries actually received",
+    "message quality bounds confidence in relayed information",
+    "network outages isolate knowledge rather than globally synchronizing state"
+  ],
+  "runtime":"web/systems/communications_information_network.mjs",
+  "asset_profile":"web/assets/communications/communications_information_network_profile.json"
+}
