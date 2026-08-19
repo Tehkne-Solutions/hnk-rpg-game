@@ -1,0 +1,16 @@
+{
+  "signature":"Tehkné Solutions",
+  "stage":"AF-001CW",
+  "profile_id":"AFTERWORLD_LAW_GOVERNANCE_COMMUNITY_RULES_V1",
+  "requires":["AF-001CV","AF-001CR","AF-001CQ"],
+  "invariants":[
+    "legality is evaluated against the rules of the relevant community and jurisdiction",
+    "the same action may be permitted in one community and prohibited in another",
+    "laws have explicit effective dates, scope, conditions and version history",
+    "enactment or amendment requires recognized legislative authority",
+    "justice outcomes remain downstream of local law plus evidence rather than omniscient world truth",
+    "governance legitimacy is derived from participation, consistency, trust and abuse rather than a global constant"
+  ],
+  "runtime":"web/systems/law_governance_community_rules.mjs",
+  "asset_profile":"web/assets/social/law_governance_community_rules_profile.json"
+}
