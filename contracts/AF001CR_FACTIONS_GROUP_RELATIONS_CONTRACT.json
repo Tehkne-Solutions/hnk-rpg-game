@@ -1,0 +1,16 @@
+{
+  "signature":"Tehkné Solutions",
+  "stage":"AF-001CR",
+  "profile_id":"AFTERWORLD_FACTIONS_GROUP_RELATIONS_V1",
+  "requires":["AF-001CQ"],
+  "invariants":[
+    "faction relations are derived from local historical evidence and diplomatic events",
+    "group membership may influence reputation but never replaces independent evidence",
+    "association inheritance is bounded and cannot become automatic guilt or virtue",
+    "treaties depend on relation state, mutual benefit, negotiator trust and breach history",
+    "hostility, access, trade and alliance consequences are derived from current relation state",
+    "different groups may hold different relations with the same actor or settlement"
+  ],
+  "runtime":"web/systems/factions_group_relations.mjs",
+  "asset_profile":"web/assets/social/factions_group_relations_profile.json"
+}
