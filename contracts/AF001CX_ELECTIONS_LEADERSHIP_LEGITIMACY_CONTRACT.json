@@ -1,0 +1,16 @@
+{
+  "signature":"Tehkné Solutions",
+  "stage":"AF-001CX",
+  "profile_id":"AFTERWORLD_ELECTIONS_LEADERSHIP_LEGITIMACY_V1",
+  "requires":["AF-001CW","AF-001CR","AF-001CQ"],
+  "invariants":[
+    "leadership authority derives from an explicit selection or succession process",
+    "elections and council votes preserve eligible participants, quorum and tally history",
+    "mandates preserve start, end, term and removal history",
+    "political legitimacy is derived from participation, procedure, trust, performance, abuse and contestation",
+    "leadership challenges require explicit grounds and recognized procedure",
+    "removal or succession never rewrites prior authority history"
+  ],
+  "runtime":"web/systems/elections_leadership_legitimacy.mjs",
+  "asset_profile":"web/assets/governance/elections_leadership_legitimacy_profile.json"
+}

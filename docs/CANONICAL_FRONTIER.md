@@ -2,10 +2,10 @@
 
 **Tehkné Solutions**
 
-Current Assets Forge frontier: **AF-001CW — Law, Governance & Community Rules Runtime**.
+Current Assets Forge frontier: **AF-001CX — Elections, Leadership Succession & Political Legitimacy Runtime**.
 
-AF-001CW extends AF-001CV justice with community-specific laws, explicit jurisdiction, effective dates, legislative authority, amendment/version history and governance legitimacy derived from participation, consistency, trust and abuse. The same action may be lawful in one community and prohibited in another.
+AF-001CX extends AF-001CW governance with explicit selection methods, election/council vote records, mandate history, succession rules, leadership challenges/removal and political legitimacy derived from participation, procedural fairness, performance, trust, abuse and contestation. Authority is historical and procedural, never an untracked global flag.
 
-AF-001CV compatibility remains preserved.
+AF-001CW compatibility remains preserved.
 
 Completion rule remains paired: an AF is complete only after runtime is published in `hnk-rpg-game` and asset/data status is published in `hnk-rpg-game-assets`.
