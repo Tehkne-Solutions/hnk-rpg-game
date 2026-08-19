@@ -1,0 +1,7 @@
+{
+  "stage":"AF-001CA",
+  "name":"Tool Crafting, Durability, Repair & Material Processing Runtime",
+  "signature":"Tehkné Solutions",
+  "runtime":{"explicit_recipe_inputs":true,"bench_and_labor_requirements":true,"skill_quality":true,"tool_durability":true,"unusable_condition":true,"resource_cost_repair":true,"raw_material_processing":true,"processing_losses":true,"AF001BZ_compatibility_preserved":true},
+  "design_rules":["tool crafting consumes explicit gathered materials","recipes require sufficient bench tier and labor","crafted quality depends on skill recipe baseline and bench quality","tool durability decreases through use and can reach unusable condition","repair consumes compatible resources and cannot exceed maximum condition","material processing converts raw resources with explicit losses and labor","crafting and processing state persists through inventory and world time","tool crafting never uses emissive or glow feedback"]
+}
