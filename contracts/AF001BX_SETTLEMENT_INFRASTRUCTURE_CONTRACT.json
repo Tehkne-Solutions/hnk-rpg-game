@@ -1,0 +1,28 @@
+{
+  "stage": "AF-001BX",
+  "name": "Shelter, Housing, Animal Enclosures & Settlement Infrastructure Runtime",
+  "signature": "Tehkné Solutions",
+  "runtime": {
+    "occupancy_capacity": true,
+    "weather_protection": true,
+    "insulation": true,
+    "hygiene": true,
+    "animal_enclosure_security": true,
+    "storage_capacity": true,
+    "material_properties": true,
+    "maintenance_degradation": true,
+    "multi_day_persistence": true,
+    "AF001BW_compatibility_preserved": true
+  },
+  "design_rules": [
+    "shelter capacity constrains occupancy rather than allowing infinite residents",
+    "weather protection and insulation reduce climate stress but do not eliminate it",
+    "hygiene declines with occupancy and waste unless maintained",
+    "animal enclosure security reduces escape and predator risk",
+    "storage capacity protects supplies from weather and exposure",
+    "materials influence durability insulation and water resistance",
+    "settlement infrastructure degrades and requires maintenance over time",
+    "settlement infrastructure persists across world days",
+    "settlement infrastructure never uses emissive or glow feedback"
+  ]
+}
