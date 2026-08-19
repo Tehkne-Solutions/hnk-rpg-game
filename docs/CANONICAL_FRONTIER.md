@@ -2,10 +2,10 @@
 
 **Tehkné Solutions**
 
-Current Assets Forge frontier: **AF-001CO — Communications, Detection & Settlement Information Network Runtime**.
+Current Assets Forge frontier: **AF-001CP — Rumors, Reports, Trust & Information Propagation Runtime**.
 
-AF-001CO extends AF-001CN utilities with powered communications, range/terrain/weather-limited links, relay propagation, sensor detections with confidence, message classes and agent-local information receipt. Information no longer propagates globally: agents can act only on messages or detections that actually reached them.
+AF-001CP extends AF-001CO local communications with source trust, provenance-bearing reports, deterministic retelling distortion, independent corroboration, conflicting claims and agent-local belief updates. Information may spread socially, but it never becomes world truth merely because it was repeated.
 
-AF-001CN compatibility remains preserved.
+AF-001CO compatibility remains preserved.
 
 Completion rule remains paired: an AF is complete only after runtime is published in `hnk-rpg-game` and asset/data status is published in `hnk-rpg-game-assets`.
