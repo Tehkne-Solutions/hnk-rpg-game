@@ -1,0 +1,16 @@
+{
+  "signature":"Tehkné Solutions",
+  "stage":"AF-001CQ",
+  "profile_id":"AFTERWORLD_REPUTATION_SOCIAL_MEMORY_V1",
+  "requires":["AF-001CP"],
+  "invariants":[
+    "reputation is derived from agent-local social memories, never written as world truth",
+    "direct observation and secondhand reports remain distinguishable",
+    "memory confidence decays with age unless reinforced by later evidence",
+    "different agents and groups may hold different reputations for the same actor",
+    "social consequences depend on local reputation, trust, fear and confidence",
+    "group reputation is an aggregation of member states, not a globally synchronized score"
+  ],
+  "runtime":"web/systems/reputation_social_memory.mjs",
+  "asset_profile":"web/assets/social/reputation_social_memory_profile.json"
+}
