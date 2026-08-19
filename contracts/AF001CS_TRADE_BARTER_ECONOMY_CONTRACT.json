@@ -1,0 +1,17 @@
+{
+  "signature":"Tehkné Solutions",
+  "stage":"AF-001CS",
+  "profile_id":"AFTERWORLD_TRADE_BARTER_ECONOMY_V1",
+  "requires":["AF-001CR","AF-001CC","AF-001CP"],
+  "invariants":[
+    "value is contextual and may differ by settlement",
+    "scarcity and need alter exchange value without changing world truth",
+    "barter compares both sides under local context",
+    "credit limits depend on trust reliability debt and wealth",
+    "trade contracts track delivery payment due tick and breach state",
+    "route viability depends on margin distance risk relations and escort strength",
+    "trade never creates or teleports resources"
+  ],
+  "runtime":"web/systems/trade_barter_economy.mjs",
+  "asset_profile":"web/assets/economy/trade_barter_economy_profile.json"
+}
