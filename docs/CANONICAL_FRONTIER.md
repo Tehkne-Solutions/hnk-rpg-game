@@ -2,10 +2,10 @@
 
 **Tehkné Solutions**
 
-Current Assets Forge frontier: **AF-001BY — Construction, Resource Costs, Building Progress & Settlement Expansion Runtime**.
+Current Assets Forge frontier: **AF-001BZ — Resource Gathering, Logging, Quarrying & Raw Construction Materials Runtime**.
 
-AF-001BY extends AF-001BX settlement infrastructure into buildable projects with explicit material costs, ordered construction stages, labor/tool constraints, persistent partial progress, repairs, upgrades and settlement capacity derived from completed structures.
+AF-001BZ extends AF-001BY construction with explicit world resource nodes for timber, stone, clay and thatch, tool compatibility, skill/tool-condition yield, node depletion, renewable recovery, nonrenewable outcrops, environmental disturbance and inventory transfer.
 
-AF-001BX compatibility remains preserved.
+AF-001BY compatibility remains preserved.
 
 Completion rule remains paired: an AF is complete only after runtime is published in `hnk-rpg-game` and asset/data status is published in `hnk-rpg-game-assets`.
