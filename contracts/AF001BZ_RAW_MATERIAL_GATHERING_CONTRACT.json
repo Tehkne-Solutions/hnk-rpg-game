@@ -1,0 +1,26 @@
+{
+  "stage": "AF-001BZ",
+  "name": "Resource Gathering, Logging, Quarrying & Raw Construction Materials Runtime",
+  "signature": "Tehkné Solutions",
+  "runtime": {
+    "explicit_resource_nodes": true,
+    "tool_compatibility": true,
+    "skill_tool_condition_yield": true,
+    "node_depletion": true,
+    "renewable_regrowth": true,
+    "nonrenewable_outcrops": true,
+    "environmental_disturbance": true,
+    "inventory_transfer": true,
+    "AF001BY_compatibility_preserved": true
+  },
+  "design_rules": [
+    "raw construction materials come from explicit world resource nodes",
+    "gathering requires compatible tools for efficient extraction",
+    "harvest reduces node abundance instead of creating materials from nothing",
+    "renewable nodes recover over time while stone outcrops do not regenerate",
+    "extraction creates measurable environmental disturbance",
+    "skill and tool condition affect yield and fatigue",
+    "resource node state persists across world days",
+    "raw material gathering never uses emissive or glow feedback"
+  ]
+}
