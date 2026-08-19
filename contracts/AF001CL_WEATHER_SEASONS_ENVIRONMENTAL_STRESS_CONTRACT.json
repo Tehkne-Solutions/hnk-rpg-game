@@ -1,0 +1,15 @@
+{
+  "signature":"Tehkné Solutions",
+  "stage":"AF-001CL",
+  "profile_id":"AFTERWORLD_WEATHER_SEASONS_ENVIRONMENTAL_STRESS_V1",
+  "requires":["AF-001CK"],
+  "invariants":[
+    "weather state modifies crops, water, forage, health and work through explicit factors",
+    "season is derived from world time and never stored as an arbitrary quest flag",
+    "shelter and clothing mitigate environmental stress without erasing it",
+    "rainfall and evaporation alter modeled water volume",
+    "drought and storms alter renewable-resource regrowth rather than spawning/despawning resources magically"
+  ],
+  "runtime":"web/systems/weather_seasons_environmental_stress.mjs",
+  "asset_profile":"web/assets/environment/weather_seasons_profile.json"
+}

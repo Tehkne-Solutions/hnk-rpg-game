@@ -2,10 +2,10 @@
 
 **Tehkné Solutions**
 
-Current Assets Forge frontier: **AF-001CK — Agriculture, Foraging Regrowth & Renewable Food Production Runtime**.
+Current Assets Forge frontier: **AF-001CL — Weather, Seasons & Environmental Stress Runtime**.
 
-AF-001CK extends AF-001CJ food supply with soil/water/sunlight/temperature/season-dependent crop growth, harvest yield plus seed return, forage-patch regrowth toward carrying capacity, overharvest consequences and renewable food coverage derived from produced calories versus population need.
+AF-001CL extends AF-001CK renewable food production with world-time-derived seasons, explicit weather state, rainfall/evaporation water balance, weather-dependent crop and forage performance, and environmental stress mitigated by shelter/clothing rather than ignored by the simulation.
 
-AF-001CJ compatibility remains preserved.
+AF-001CK compatibility remains preserved.
 
 Completion rule remains paired: an AF is complete only after runtime is published in `hnk-rpg-game` and asset/data status is published in `hnk-rpg-game-assets`.
