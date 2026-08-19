@@ -1,0 +1,16 @@
+{
+  "signature":"Tehkné Solutions",
+  "stage":"AF-001CM",
+  "profile_id":"AFTERWORLD_SHELTER_THERMAL_COMFORT_V1",
+  "requires":["AF-001CL"],
+  "invariants":[
+    "housing quality derives from structure weather protection insulation beds and crowding",
+    "thermal comfort derives from ambient weather shelter envelope and clothing",
+    "rest recovery is improved by housing quality thermal comfort and nutrition",
+    "overcrowding increases illness risk and reduces effective housing quality",
+    "poor shelter can reduce work capacity through incomplete recovery",
+    "shelter state is persistent world state rather than a cosmetic scene flag"
+  ],
+  "runtime":"web/systems/shelter_thermal_comfort.mjs",
+  "asset_profile":"web/assets/shelter/shelter_thermal_comfort_profile.json"
+}
