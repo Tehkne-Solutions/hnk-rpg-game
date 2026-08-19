@@ -1,0 +1,16 @@
+{
+  "signature":"Tehkné Solutions",
+  "stage":"AF-001CD",
+  "profile_id":"AFTERWORLD_WORKER_JOBS_V1",
+  "requires":["AF-001CC"],
+  "invariants":[
+    "jobs are explicit world tasks and are never silently completed",
+    "workers can only accept jobs matching their capabilities",
+    "assignment uses priority, skill, fatigue and distance",
+    "delivery work references source, destination, item, quantity and hauling equipment",
+    "job progress advances through simulation time",
+    "completion is persistent and auditable"
+  ],
+  "runtime":"web/systems/worker_jobs.mjs",
+  "asset_profile":"web/assets/settlement/worker_jobs_profile.json"
+}
