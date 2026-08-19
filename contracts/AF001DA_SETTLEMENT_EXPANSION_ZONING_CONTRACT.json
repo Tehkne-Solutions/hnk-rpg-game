@@ -1,0 +1,15 @@
+{
+  "signature":"Tehkné Solutions",
+  "stage":"AF-001DA",
+  "profile_id":"AFTERWORLD_SETTLEMENT_EXPANSION_ZONING_V1",
+  "requires":["AF-001CZ","AF-001CU","AF-001CN","AF-001CI"],
+  "invariants":[
+    "land development requires explicit policy approval",
+    "unresolved property claims can block development",
+    "utility extensions consume finite infrastructure budget",
+    "zoning suitability depends on parcel conditions and local context",
+    "expansion can increase population and economic capacity while also increasing utility load and environmental pressure"
+  ],
+  "runtime":"web/systems/settlement_expansion_zoning.mjs",
+  "asset_profile":"web/assets/settlement/settlement_expansion_zoning_profile.json"
+}
