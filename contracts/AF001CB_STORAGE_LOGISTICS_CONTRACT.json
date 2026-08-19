@@ -1,0 +1,25 @@
+{
+  "stage":"AF-001CB",
+  "name":"Storage, Containers & Material Logistics Runtime",
+  "signature":"Tehkné Solutions",
+  "runtime":{
+    "mass_and_volume_capacity":true,
+    "container_compatibility":true,
+    "explicit_transfer":true,
+    "distance_and_terrain_hauling_cost":true,
+    "multi_trip_logistics":true,
+    "stored_perishable_decay":true,
+    "container_preservation":true,
+    "AF001CA_compatibility_preserved":true
+  },
+  "design_rules":[
+    "resources never teleport between containers",
+    "storage capacity is constrained by mass and volume",
+    "container type can restrict compatible item classes",
+    "material transfer preserves explicit quantities",
+    "hauling cost grows with distance terrain and required trips",
+    "perishable resources continue to decay while stored",
+    "preservation reduces but does not erase physical consequences",
+    "storage and logistics never use emissive or glow feedback"
+  ]
+}
