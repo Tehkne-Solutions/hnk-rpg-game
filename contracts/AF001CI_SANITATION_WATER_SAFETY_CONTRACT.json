@@ -1,0 +1,16 @@
+{
+  "signature":"Tehkné Solutions",
+  "stage":"AF-001CI",
+  "profile_id":"AFTERWORLD_SANITATION_WATER_SAFETY_V1",
+  "requires":["AF-001CH"],
+  "invariants":[
+    "water safety derives from modeled biological chemical turbidity and waste contamination",
+    "treatment modifies specific contamination properties instead of flipping a safe-water boolean",
+    "settlement sanitation risk emerges from population waste load disposal capacity and hygiene",
+    "environmental contamination transfer is reduced by distance barriers and sanitation infrastructure",
+    "public-health actions require capabilities and in-world supplies",
+    "disease risk reduction occurs through modeled prevention rather than global immunity flags"
+  ],
+  "runtime":"web/systems/sanitation_water_safety.mjs",
+  "asset_profile":"web/assets/public_health/sanitation_water_safety_profile.json"
+}
