@@ -1,0 +1,15 @@
+{
+  "stage": "VS-001",
+  "name": "First Playable 3D Web Recovery",
+  "signature": "Tehkné Solutions",
+  "production_url": "https://hnk-rpg-game.vercel.app/",
+  "required_web": ["index.html","web/vs001.css","web/vs001.js"],
+  "required_real_3d_assets": ["web/assets/glade_H0.glb","web/assets/explorer.glb","web/assets/grazer.glb","web/assets/foldback.glb","web/assets/shrine.glb","web/assets/broken_ring.glb","web/assets/oak_adult.glb"],
+  "gates": {
+    "web_entrypoint_must_exist": true,
+    "renderer_must_boot_without_engine": true,
+    "canonical_glb_loader_paths_locked": true,
+    "playable_gate_fails_when_any_required_glb_is_missing": true,
+    "no_placeholder_may_satisfy_real_asset_gate": true
+  }
+}
