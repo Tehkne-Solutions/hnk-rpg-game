@@ -1,0 +1,28 @@
+{
+  "stage": "AF-001BW",
+  "name": "Animal Disease, Veterinary Care, Herd Genetics & Selective Breeding Runtime",
+  "signature": "Tehkné Solutions",
+  "runtime": {
+    "vector_transmission": true,
+    "isolation": true,
+    "veterinary_care": true,
+    "disease_recovery": true,
+    "heritable_traits": true,
+    "bounded_variation": true,
+    "breeder_selection": true,
+    "lineage_records": true,
+    "multi_generation_persistence": true,
+    "AF001BV_compatibility_preserved": true
+  },
+  "design_rules": [
+    "disease transmission depends on disease vector exposure and herd contact",
+    "isolation reduces transmission but does not instantly cure infection",
+    "veterinary care improves recovery through sanitation water rest and nutrition",
+    "animals carry heritable traits for resistance productivity temperament and feed efficiency",
+    "offspring traits derive from both parents with bounded variation",
+    "selective breeding changes herd characteristics across generations rather than instantly",
+    "genetic advantages have tradeoffs and do not create perfect animals",
+    "herd health and lineage persist across world days and generations",
+    "herd genetics never uses emissive or glow feedback"
+  ]
+}
