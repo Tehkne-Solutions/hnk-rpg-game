@@ -1,0 +1,16 @@
+{
+  "signature":"Tehkné Solutions",
+  "stage":"AF-001CT",
+  "profile_id":"AFTERWORLD_CONTRACTS_DEBT_DEFAULT_V1",
+  "requires":["AF-001CS","AF-001CQ","AF-001CR"],
+  "invariants":[
+    "debt persists until payment, forgiveness or explicit renegotiation",
+    "default derives from unpaid obligations past due plus grace period",
+    "renegotiation never erases history and increments renegotiation count",
+    "credit consequences update trust and reliability without changing world truth",
+    "collateral and guarantees are explicit contract data",
+    "no debt is created, settled or forgiven without an explicit causal event"
+  ],
+  "runtime":"web/systems/contracts_debt_default.mjs",
+  "asset_profile":"web/assets/economy/contracts_debt_default_profile.json"
+}
