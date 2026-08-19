@@ -2,10 +2,10 @@
 
 **Tehkné Solutions**
 
-Current Assets Forge frontier: **AF-001BX — Shelter, Housing, Animal Enclosures & Settlement Infrastructure Runtime**.
+Current Assets Forge frontier: **AF-001BY — Construction, Resource Costs, Building Progress & Settlement Expansion Runtime**.
 
-AF-001BX extends AF-001BW herd systems into persistent settlement infrastructure with occupancy capacity, climate protection, hygiene, enclosure security, storage capacity, material properties, degradation and maintenance across world days.
+AF-001BY extends AF-001BX settlement infrastructure into buildable projects with explicit material costs, ordered construction stages, labor/tool constraints, persistent partial progress, repairs, upgrades and settlement capacity derived from completed structures.
 
-AF-001BW compatibility remains preserved.
+AF-001BX compatibility remains preserved.
 
 Completion rule remains paired: an AF is complete only after runtime is published in `hnk-rpg-game` and asset/data status is published in `hnk-rpg-game-assets`.
