@@ -1,0 +1,16 @@
+{
+  "signature":"Tehkné Solutions",
+  "stage":"AF-001CJ",
+  "profile_id":"AFTERWORLD_FOOD_NUTRITION_V1",
+  "requires":["AF-001CI"],
+  "invariants":[
+    "food safety derives from spoilage and contamination state, not a safe/unsafe flag",
+    "preservation and cooking affect specific properties and cannot erase unrelated hazards",
+    "nutrition derives from actual edible intake and food quality",
+    "malnutrition reduces individual work capacity over time",
+    "settlement food security derives from stocked edible calories versus population needs",
+    "foodborne risk can feed epidemiology through modeled exposure rather than global outbreak flags"
+  ],
+  "runtime":"web/systems/food_nutrition.mjs",
+  "asset_profile":"web/assets/food/food_nutrition_profile.json"
+}
