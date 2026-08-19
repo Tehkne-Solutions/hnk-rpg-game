@@ -1,0 +1,16 @@
+{
+  "signature":"Tehkné Solutions",
+  "stage":"AF-001CY",
+  "profile_id":"AFTERWORLD_PUBLIC_POLICY_RESOURCE_ALLOCATION_V1",
+  "requires":["AF-001CX","AF-001CS","AF-001CN","AF-001CI","AF-001CJ"],
+  "invariants":[
+    "allocations consume explicit finite settlement resources",
+    "priority uses declared scoring inputs",
+    "insufficient resources produce deferred allocations",
+    "group decisions preserve participation quorum and tally",
+    "outcomes affect trust and legitimacy through measured results",
+    "resource accounting conserves food water power labor and materials"
+  ],
+  "runtime":"web/systems/public_policy_resource_allocation.mjs",
+  "asset_profile":"web/assets/governance/public_policy_resource_allocation_profile.json"
+}
