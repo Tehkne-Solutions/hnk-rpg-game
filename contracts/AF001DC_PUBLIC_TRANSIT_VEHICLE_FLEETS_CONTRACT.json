@@ -1,0 +1,16 @@
+{
+  "signature":"Tehkné Solutions",
+  "stage":"AF-001DC",
+  "profile_id":"AFTERWORLD_PUBLIC_TRANSIT_VEHICLE_FLEETS_V1",
+  "requires":["AF-001DB","AF-001CN"],
+  "invariants":[
+    "vehicle operation requires an available vehicle and qualified driver",
+    "passenger and cargo movement are bounded by vehicle capacity",
+    "trips consume fuel according to distance, load and road penalty",
+    "vehicle condition degrades with service and poor route conditions",
+    "maintenance can make a vehicle unavailable",
+    "scheduled service can be cancelled when fleet or driver capacity is insufficient"
+  ],
+  "runtime":"web/systems/public_transit_vehicle_fleets.mjs",
+  "asset_profile":"web/assets/transport/public_transit_vehicle_fleets_profile.json"
+}
