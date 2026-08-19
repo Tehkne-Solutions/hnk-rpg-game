@@ -2,10 +2,10 @@
 
 **Tehkné Solutions**
 
-Current Assets Forge frontier: **AF-001BT — Agriculture, Planting, Crop Growth & Harvest Runtime**.
+Current Assets Forge frontier: **AF-001BU — Crop Diseases, Pests, Weeds & Integrated Farm Ecology Runtime**.
 
-AF-001BT extends AF-001BS food acquisition into cultivation with explicit seed stock, prepared plots, persistent soil actions, water/fertility/temperature-driven growth, irrigation water conservation, crop health, maturity, harvest yield and seed return.
+AF-001BU extends AF-001BT agriculture with host-specific crop threats, condition-driven disease, pest pressure, weed competition, crop rotation, intercropping, control methods, soil tradeoffs and companion-crop effects.
 
-AF-001BS compatibility remains preserved.
+AF-001BT compatibility remains preserved.
 
 Completion rule remains paired: an AF is complete only after runtime is published in `hnk-rpg-game` and asset/data status is published in `hnk-rpg-game-assets`.
