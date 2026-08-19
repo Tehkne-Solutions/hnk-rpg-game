@@ -1,0 +1,16 @@
+{
+  "signature":"Tehkné Solutions",
+  "stage":"AF-001DE",
+  "profile_id":"AFTERWORLD_SUPPLY_CHAIN_PLANNING_V1",
+  "requires":["AF-001DD","AF-001CS","AF-001DC"],
+  "invariants":[
+    "demand forecasts derive from observed consumption history and explicit trend inputs",
+    "reorder points include lead time and explicit safety stock",
+    "procurement cannot exceed supplier availability, settlement budget or transport capacity",
+    "supplier selection depends on authored reliability, cost, trust, capacity and risk",
+    "planned replenishment creates orders rather than instant inventory",
+    "stockout risk remains a derived forecast and never removes scarcity"
+  ],
+  "runtime":"web/systems/supply_chain_planning.mjs",
+  "asset_profile":"web/assets/logistics/supply_chain_planning_profile.json"
+}

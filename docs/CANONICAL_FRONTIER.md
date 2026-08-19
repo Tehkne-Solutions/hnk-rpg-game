@@ -2,10 +2,10 @@
 
 **Tehkné Solutions**
 
-Current Assets Forge frontier: **AF-001DD — Warehousing, Distribution Hubs & Last-Mile Logistics Runtime**.
+Current Assets Forge frontier: **AF-001DE — Supply Chain Planning, Procurement & Replenishment Runtime**.
 
-AF-001DD extends AF-001DC transport operations into finite storage and internal distribution: warehouse capacity, hub throughput, prioritized queues, last-mile fleet limits, spoilage/handling losses and service-level measurement. Logistics outcomes depend on what is physically stored, processed and delivered.
+AF-001DE extends AF-001DD warehousing into anticipatory supply planning: observed-consumption forecasts, lead-time-aware reorder points, safety stock, supplier scoring, budget/transport-constrained procurement and derived stockout risk. Replenishment creates orders with lead times instead of instant inventory.
 
-AF-001DC compatibility remains preserved.
+AF-001DD compatibility remains preserved.
 
 Completion rule remains paired: an AF is complete only after runtime is published in `hnk-rpg-game` and asset/data status is published in `hnk-rpg-game-assets`.
