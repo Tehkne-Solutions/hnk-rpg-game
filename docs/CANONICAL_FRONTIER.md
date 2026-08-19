@@ -2,10 +2,10 @@
 
 **Tehkné Solutions**
 
-Current Assets Forge frontier: **AF-001DA — Settlement Expansion, Zoning & Land Development Runtime**.
+Current Assets Forge frontier: **AF-001DB — Roads, Mobility, Traffic & Settlement Accessibility Runtime**.
 
-AF-001DA extends AF-001CZ public works into persistent territorial growth: parcel evaluation, zoning suitability, infrastructure-extension costs, property-claim blocking, explicit policy approval, environmental pressure and utility-load consequences. Settlement expansion consumes land and infrastructure capacity rather than creating developable space for free.
+AF-001DB extends AF-001DA territorial growth into route-dependent mobility: finite road capacity, congestion, weather/condition travel penalties, accessibility scoring, emergency-response delay, logistics throughput and maintenance demand. Movement through the settlement now consumes time and infrastructure capacity rather than remaining frictionless.
 
-AF-001CZ compatibility remains preserved.
+AF-001DA compatibility remains preserved.
 
 Completion rule remains paired: an AF is complete only after runtime is published in `hnk-rpg-game` and asset/data status is published in `hnk-rpg-game-assets`.

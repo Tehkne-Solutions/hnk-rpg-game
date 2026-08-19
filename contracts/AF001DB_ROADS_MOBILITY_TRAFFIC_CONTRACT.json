@@ -1,0 +1,16 @@
+{
+  "signature":"Tehkné Solutions",
+  "stage":"AF-001DB",
+  "profile_id":"AFTERWORLD_ROADS_MOBILITY_TRAFFIC_V1",
+  "requires":["AF-001DA","AF-001CZ","AF-001CN"],
+  "invariants":[
+    "travel time derives from distance, speed, road condition, congestion and weather",
+    "road capacity is finite and degrades with condition",
+    "congestion delays logistics, work access and emergency response",
+    "accessibility is local and route-dependent rather than globally available",
+    "road maintenance demand increases with wear, traffic and criticality",
+    "transport throughput cannot exceed vehicle, route and congestion limits"
+  ],
+  "runtime":"web/systems/roads_mobility_traffic.mjs",
+  "asset_profile":"web/assets/settlement/roads_mobility_traffic_profile.json"
+}
