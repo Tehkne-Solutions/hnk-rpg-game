@@ -1,0 +1,16 @@
+{
+  "signature":"Tehkné Solutions",
+  "stage":"AF-001CU",
+  "profile_id":"AFTERWORLD_OWNERSHIP_PROPERTY_CLAIMS_V1",
+  "requires":["AF-001CT","AF-001CQ","AF-001CR"],
+  "invariants":[
+    "ownership, custody and permission are distinct states",
+    "property transfer requires an explicit authorized causal event",
+    "abandonment removes ownership only when performed by the current owner",
+    "conflicting claims remain contested until resolved by evidence or authority",
+    "association or possession alone never rewrites ownership history",
+    "items, containers, structures and territory may use the same claim model with typed scope"
+  ],
+  "runtime":"web/systems/ownership_property_claims.mjs",
+  "asset_profile":"web/assets/economy/ownership_property_claims_profile.json"
+}
