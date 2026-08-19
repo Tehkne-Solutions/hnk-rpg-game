@@ -2,10 +2,10 @@
 
 **Tehkné Solutions**
 
-Current Assets Forge frontier: **AF-001CH — Disease, Infection & Settlement Epidemiology Runtime**.
+Current Assets Forge frontier: **AF-001CI — Sanitation, Water Safety & Public Health Infrastructure Runtime**.
 
-AF-001CH extends AF-001CG health care with modeled exposure dose, incubation, symptoms, resistance/immunity/protection modifiers, isolation, treatment/recovery and disease-derived work-capacity loss. Outbreak state is derived from individual infections; infection and knowledge are not applied through omniscient settlement flags.
+AF-001CI extends AF-001CH epidemiology with modeled water contamination, property-specific treatment effects, sanitation load from population/waste/disposal capacity, environmental contamination transfer and capability/supply-gated public-health prevention. Outbreak risk is reduced by modeled infrastructure and behavior rather than global safety flags.
 
-AF-001CG compatibility remains preserved.
+AF-001CH compatibility remains preserved.
 
 Completion rule remains paired: an AF is complete only after runtime is published in `hnk-rpg-game` and asset/data status is published in `hnk-rpg-game-assets`.
