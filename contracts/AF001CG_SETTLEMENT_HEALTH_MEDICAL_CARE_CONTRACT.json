@@ -1,0 +1,16 @@
+{
+  "signature":"Tehkné Solutions",
+  "stage":"AF-001CG",
+  "profile_id":"AFTERWORLD_SETTLEMENT_HEALTH_MEDICAL_CARE_V1",
+  "requires":["AF-001CF"],
+  "invariants":[
+    "serious injuries persist after the originating incident resolves",
+    "triage priority derives from injury severity, bleeding, pain and infection risk",
+    "treatment requires a capable medic and appropriate supplies",
+    "stabilization reduces immediate risk but does not erase recovery time",
+    "recovery advances through simulation time and depends on rest, nutrition and care quality",
+    "injuries reduce worker capacity until recovery or lasting impairment is resolved"
+  ],
+  "runtime":"web/systems/settlement_health_medical_care.mjs",
+  "asset_profile":"web/assets/medical/settlement_health_medical_care_profile.json"
+}
