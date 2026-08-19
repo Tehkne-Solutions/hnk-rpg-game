@@ -1,0 +1,14 @@
+{
+  "name": "Tehkne.Afterworld.Simulation",
+  "rootNamespace": "Tehkne.Afterworld.Simulation",
+  "references": ["Tehkne.Afterworld.Core"],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": true
+}
