@@ -1,0 +1,16 @@
+{
+  "signature":"Tehkné Solutions",
+  "stage":"AF-001DP",
+  "profile_id":"AFTERWORLD_CREATURE_GENERATIONS_V1",
+  "requires":["AF-001DM","AF-001DL","AF-001DI"],
+  "invariants":[
+    "population continuity comes from births deaths maturation and migration rather than abstract respawn",
+    "reproduction depends on maturity health pair compatibility resources stress and season",
+    "offspring preserve parent and generation links",
+    "care capacity and environmental safety affect juvenile survival",
+    "cultural knowledge transmits through teachers contact and group traditions",
+    "mortality preserves demographic and kinship consequences"
+  ],
+  "runtime":"web/systems/creature_generations.mjs",
+  "asset_profile":"web/assets/ecology/creature_generations_profile.json"
+}
