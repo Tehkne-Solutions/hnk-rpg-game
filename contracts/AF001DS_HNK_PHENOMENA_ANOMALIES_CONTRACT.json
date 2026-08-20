@@ -1,0 +1,17 @@
+{
+  "signature":"Tehkné Solutions",
+  "stage":"AF-001DS",
+  "profile_id":"AFTERWORLD_HNK_PHENOMENA_ANOMALIES_V1",
+  "requires":["AF-001DR"],
+  "invariants":[
+    "anomalies are local phenomena driven by HNK energy and contextual conditions",
+    "zone rules may alter gravity time geometry matter signals or spiritual pressure without globally rewriting world rules",
+    "anomalies may activate only during specific hours weather or energy phases",
+    "players and NPCs learn anomaly rules from observations and experiments rather than omniscient revelation",
+    "observations preserve reliability and context",
+    "failed predictions remain evidence and do not erase prior observations",
+    "anomaly resolution never creates matter population or knowledge without causal source"
+  ],
+  "runtime":"web/systems/hnk_phenomena_anomalies.mjs",
+  "asset_profile":"web/assets/ecology/hnk_phenomena_anomalies_profile.json"
+}
