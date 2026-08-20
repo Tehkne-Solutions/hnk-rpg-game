@@ -2,10 +2,10 @@
 
 **Tehkné Solutions**
 
-Current Assets Forge frontier: **AF-001DQ — Creature Genetics, Traits, Mutation & HNK Transformation Inheritance Runtime**.
+Current Assets Forge frontier: **AF-001DR — HNK Energy Ecology, Convergence Zones & Transformation Dynamics Runtime**.
 
-AF-001DQ extends AF-001DP persistent generations into lineage-based trait inheritance and HNK transformation continuity. Offspring inherit from explicit parent lineages with bounded variation; phenotype expression responds to environment and HNK affinity without rewriting ancestry; transformation heritability and stability remain explicit; mutation pressure derives from environmental and HNK conditions; lineage diversity is measured from observed traits rather than generated globally.
+AF-001DR connects AF-001DQ hereditary transformation continuity to local HNK energy ecology. Energy fields have intensity, composition and instability; convergence zones combine energies and may mutate local rules; cumulative exposure, affinity, resilience, lineage predisposition and stress determine transformation potential; transformed sentient animals preserve memory and identity continuity; plants, objects, machines and places can receive target-specific transformations without rewriting ancestry or creating matter.
 
-AF-001DP compatibility remains preserved.
+AF-001DQ compatibility remains preserved.
 
 Completion rule remains paired: an AF is complete only after runtime is published in `hnk-rpg-game` and asset/data status is published in `hnk-rpg-game-assets`.
