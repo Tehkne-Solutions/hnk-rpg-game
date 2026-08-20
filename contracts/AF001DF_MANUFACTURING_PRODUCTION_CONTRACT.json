@@ -1,0 +1,16 @@
+{
+  "signature":"Tehkné Solutions",
+  "stage":"AF-001DF",
+  "profile_id":"AFTERWORLD_MANUFACTURING_PRODUCTION_V1",
+  "requires":["AF-001DE","AF-001DD","AF-001DC"],
+  "invariants":[
+    "production requires explicit bill-of-material availability",
+    "workshop throughput is bounded by both workstation and qualified-labor capacity",
+    "scheduled batches consume real inventory before production",
+    "setup time and batch work consume finite capacity",
+    "quality and rejects derive from station condition, worker skill and material quality",
+    "maintenance debt reduces future production reliability instead of being cosmetic"
+  ],
+  "runtime":"web/systems/manufacturing_production.mjs",
+  "asset_profile":"web/assets/production/manufacturing_production_profile.json"
+}
