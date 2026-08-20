@@ -1,0 +1,16 @@
+{
+  "signature":"Tehkné Solutions",
+  "stage":"AF-001DH",
+  "profile_id":"AFTERWORLD_WASTE_RECYCLING_POLLUTION_V1",
+  "requires":["AF-001DG","AF-001CI","AF-001CL"],
+  "invariants":[
+    "waste is conserved across collection processing recovery residual and overflow",
+    "recycling and treatment are bounded by facility capacity and efficiency",
+    "uncollected waste and overflow contribute to environmental pollution",
+    "hazard and containment affect pollution severity",
+    "rain and wind redistribute pollution between soil water and air",
+    "pollution impacts water safety health agriculture and environmental reputation"
+  ],
+  "runtime":"web/systems/waste_pollution.mjs",
+  "asset_profile":"web/assets/environment/waste_recycling_pollution_profile.json"
+}
