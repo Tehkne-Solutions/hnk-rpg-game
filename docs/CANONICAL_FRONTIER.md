@@ -2,10 +2,10 @@
 
 **Tehkné Solutions**
 
-Current Assets Forge frontier: **AF-001DH — Waste Streams, Recycling Plants & Environmental Pollution Runtime**.
+Current Assets Forge frontier: **AF-001DI — Ecosystem Health, Biodiversity & Resource Depletion Runtime**.
 
-AF-001DH extends AF-001DG circular-economy recovery into persistent waste handling: generated waste is collected, processed, recycled, treated, rejected or overflowed; facility capacity is finite; hazard, containment and weather redistribute pollution across soil, water and air; environmental load feeds back into water safety, health, agriculture and reputation.
+AF-001DI extends AF-001DH environmental pollution into persistent ecosystem dynamics: habitat quality, biodiversity, carrying capacity, harvest pressure, pollution, climate stress, fragmentation and invasive pressure determine regeneration, resource availability and local-extinction risk. Natural resources regenerate causally rather than respawning instantly.
 
-AF-001DG compatibility remains preserved.
+AF-001DH compatibility remains preserved.
 
 Completion rule remains paired: an AF is complete only after runtime is published in `hnk-rpg-game` and asset/data status is published in `hnk-rpg-game-assets`.
