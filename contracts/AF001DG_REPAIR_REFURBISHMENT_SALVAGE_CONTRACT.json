@@ -1,0 +1,16 @@
+{
+  "signature":"Tehkné Solutions",
+  "stage":"AF-001DG",
+  "profile_id":"AFTERWORLD_REPAIR_REFURBISHMENT_SALVAGE_V1",
+  "requires":["AF-001DF","AF-001CN","AF-001DC"],
+  "invariants":[
+    "diagnosis confidence depends on skill and tools and may leave hidden faults",
+    "repair consumes explicit parts and cannot restore condition without resources",
+    "failed repair may consume parts while yielding only partial recovery",
+    "salvage recovery is bounded by damage, worker skill and tool quality",
+    "refurbishment reuses recovered parts and cannot exceed bounded condition or quality",
+    "circularity metrics derive from real recovered input, virgin input, output and waste"
+  ],
+  "runtime":"web/systems/repair_refurbishment_salvage.mjs",
+  "asset_profile":"web/assets/production/repair_refurbishment_salvage_profile.json"
+}
