@@ -1,0 +1,16 @@
+{
+  "signature":"Tehkné Solutions",
+  "stage":"AF-001DM",
+  "profile_id":"AFTERWORLD_CREATURE_SOCIAL_STRUCTURES_V1",
+  "requires":["AF-001DL","AF-001DK","AF-001DJ"],
+  "invariants":[
+    "social groups emerge from bonds familiarity trust kinship and shared history",
+    "roles are assigned from member traits skills and current needs rather than fixed omniscient labels",
+    "leadership depends on fitness prestige support and context and may change over time",
+    "collective defense flight regrouping and care derive from group cohesion threat and dependent needs",
+    "group cohesion can rise through shared traditions and fall through conflict or resource stress",
+    "membership does not erase individual memory behavior or agency"
+  ],
+  "runtime":"web/systems/creature_social_structures.mjs",
+  "asset_profile":"web/assets/ecology/creature_social_structures_profile.json"
+}
