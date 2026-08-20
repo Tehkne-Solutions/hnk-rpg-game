@@ -1,0 +1,17 @@
+{
+  "signature":"Tehkné Solutions",
+  "stage":"AF-001DR",
+  "profile_id":"AFTERWORLD_HNK_ENERGY_ECOLOGY_V1",
+  "requires":["AF-001DQ","AF-001DI"],
+  "invariants":[
+    "HNK energy fields have local intensity composition and temporal state",
+    "convergence zones may combine multiple HNK energies and mutate local rules",
+    "transformation requires exposure susceptibility and contextual pressure rather than instant universal mutation",
+    "creature and animal transformation preserves pre-transformation memory and identity continuity",
+    "plants objects and machines may transform through target-specific outcomes",
+    "HNK exposure does not erase explicit lineage ancestry",
+    "energy fields may fluctuate without creating population or material mass"
+  ],
+  "runtime":"web/systems/hnk_energy_ecology.mjs",
+  "asset_profile":"web/assets/ecology/hnk_energy_ecology_profile.json"
+}
