@@ -1,0 +1,16 @@
+{
+  "signature":"Tehkné Solutions",
+  "stage":"AF-001DN",
+  "profile_id":"AFTERWORLD_CREATURE_TERRITORY_DIPLOMACY_V1",
+  "requires":["AF-001DM","AF-001DL","AF-001DK","AF-001DI"],
+  "invariants":[
+    "territorial behavior derives from resource value, overlap, scarcity, population pressure and history",
+    "inter-group relations preserve trust, respect, fear and grievance over time",
+    "communication and shared protocols can reduce escalation but do not guarantee peace",
+    "alliances require compatible leadership, communication and convergent needs or threats",
+    "boundary signals can decay, be ignored or be misunderstood",
+    "conflict and cooperation alter future relations through explicit events rather than global alignment flags"
+  ],
+  "runtime":"web/systems/creature_territory_diplomacy.mjs",
+  "asset_profile":"web/assets/ecology/creature_territory_diplomacy_profile.json"
+}
