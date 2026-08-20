@@ -2,10 +2,10 @@
 
 **Tehkné Solutions**
 
-Current Assets Forge frontier: **AF-001DJ — Wildlife Behavior, Migration & Human–Animal Interaction Runtime**.
+Current Assets Forge frontier: **AF-001DK — Creature Communication, Signals & Cross-Species Understanding Runtime**.
 
-AF-001DJ extends AF-001DI ecosystem state into individual/group wildlife behavior: needs, temperament, territory, threat and encounter memory determine approach, observation, flight or defense; food, water, habitat, climate, disturbance and season drive migration; settlement pressures create emergent human–animal conflict and repeated encounters can create familiarity, avoidance or bonds.
+AF-001DK extends AF-001DJ wildlife memory and behavior into partial cross-species communication. Observable vocal, gestural, postural, scent, touch, light and HNK-resonance signals are interpreted through local lexicons, context, skill and relationship; ambiguity and misunderstanding remain explicit; repeated confirmed interactions can improve shared understanding without granting omniscient translation.
 
-AF-001DI compatibility remains preserved.
+AF-001DJ compatibility remains preserved.
 
 Completion rule remains paired: an AF is complete only after runtime is published in `hnk-rpg-game` and asset/data status is published in `hnk-rpg-game-assets`.
