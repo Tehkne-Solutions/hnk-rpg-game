@@ -1,0 +1,16 @@
+{
+  "signature":"Tehkné Solutions",
+  "stage":"AF-001DQ",
+  "profile_id":"AFTERWORLD_CREATURE_GENETICS_HNK_INHERITANCE_V1",
+  "requires":["AF-001DP","AF-001DI"],
+  "invariants":[
+    "offspring inherit from explicit parent lineages and preserve parent references",
+    "trait inheritance allows bounded variation rather than exact cloning",
+    "HNK transformations have explicit heritability affinity and stability rather than universal inheritance",
+    "environment and HNK exposure influence expression without rewriting ancestry",
+    "mutation pressure derives from explicit environmental and HNK conditions",
+    "population diversity is measured from observed lineage traits and is not generated from nothing"
+  ],
+  "runtime":"web/systems/creature_genetics_hnk.mjs",
+  "asset_profile":"web/assets/ecology/creature_genetics_hnk_profile.json"
+}
