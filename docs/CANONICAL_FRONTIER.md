@@ -2,10 +2,10 @@
 
 **Tehkné Solutions**
 
-Current Assets Forge frontier: **AF-001DF — Manufacturing, Workshops & Production Scheduling Runtime**.
+Current Assets Forge frontier: **AF-001DG — Repair, Refurbishment, Salvage & Circular Economy Runtime**.
 
-AF-001DF extends AF-001DE supply planning into finite production: explicit BOM requirements, workshop/station capacity, qualified labor, setup time, production queues, material consumption, batch yield, rejects, quality and maintenance-driven reliability. Manufacturing transforms real inventory through constrained work rather than spawning goods.
+AF-001DG extends AF-001DF manufacturing into closed-loop material use: skill/tool-dependent diagnosis, explicit repair parts, bounded repair outcomes, salvage recovery, refurbishment with recovered components and circularity metrics. Failed assets become repairable or recoverable material instead of disappearing from the economy.
 
-AF-001DE compatibility remains preserved.
+AF-001DF compatibility remains preserved.
 
 Completion rule remains paired: an AF is complete only after runtime is published in `hnk-rpg-game` and asset/data status is published in `hnk-rpg-game-assets`.
