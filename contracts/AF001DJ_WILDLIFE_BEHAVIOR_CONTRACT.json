@@ -1,0 +1,16 @@
+{
+  "signature":"Tehkné Solutions",
+  "stage":"AF-001DJ",
+  "profile_id":"AFTERWORLD_WILDLIFE_BEHAVIOR_MIGRATION_V1",
+  "requires":["AF-001DI","AF-001DH"],
+  "invariants":[
+    "wildlife reactions derive from needs temperament territory threat and encounter memory",
+    "unknown creatures do not default to hostile or friendly",
+    "migration responds to food water habitat climate disturbance and seasonal pressure",
+    "human wildlife conflict emerges from attraction habitat loss traffic hunting and barriers",
+    "repeated encounters can change familiarity trust avoidance aggression and bond potential",
+    "movement does not create food water habitat or population"
+  ],
+  "runtime":"web/systems/wildlife_behavior.mjs",
+  "asset_profile":"web/assets/ecology/wildlife_behavior_profile.json"
+}
