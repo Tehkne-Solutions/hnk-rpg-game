@@ -1,0 +1,16 @@
+{
+  "signature":"Tehkné Solutions",
+  "stage":"AF-001DI",
+  "profile_id":"AFTERWORLD_ECOSYSTEM_BIODIVERSITY_V1",
+  "requires":["AF-001DH","AF-001CK","AF-001DA"],
+  "invariants":[
+    "ecosystem health is derived from habitat, biodiversity, pollution, depletion and invasive pressure",
+    "resource populations regenerate toward finite carrying capacity rather than respawning instantly",
+    "harvest pressure above renewable yield reduces future population and availability",
+    "local extinction is possible when population collapses and does not reverse without a causal recovery source",
+    "pollution, climate and fragmentation affect regeneration and biodiversity",
+    "ecological degradation feeds back into foraging, agriculture and water quality"
+  ],
+  "runtime":"web/systems/ecosystem_health.mjs",
+  "asset_profile":"web/assets/environment/ecosystem_biodiversity_profile.json"
+}
