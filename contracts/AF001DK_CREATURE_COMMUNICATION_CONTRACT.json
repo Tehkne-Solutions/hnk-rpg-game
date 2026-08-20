@@ -1,0 +1,16 @@
+{
+  "signature":"Tehkné Solutions",
+  "stage":"AF-001DK",
+  "profile_id":"AFTERWORLD_CREATURE_COMMUNICATION_V1",
+  "requires":["AF-001DJ","AF-001CO"],
+  "invariants":[
+    "creature communication is inferred from observable signals and context rather than omniscient translation",
+    "interpretations retain confidence and ambiguity",
+    "repeated confirmed interactions can improve a local lexicon",
+    "misunderstanding risk increases with uncertainty stress noise and cultural distance",
+    "responses use channels the observer actually knows",
+    "HNK signals can improve or degrade understanding through sensitivity resonance exposure and interference"
+  ],
+  "runtime":"web/systems/creature_communication.mjs",
+  "asset_profile":"web/assets/ecology/creature_communication_profile.json"
+}
