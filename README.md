@@ -4,6 +4,6 @@
 
 Canonical game/runtime repository for HNK: AFTERWORLD.
 
-Current canonical frontier: **AF-001DR — HNK Energy Ecology, Convergence Zones & Transformation Dynamics Runtime**.
+Current canonical frontier: **AF-001DS — HNK Phenomena, Anomalies & Mutable World Rules Runtime**.
 
 The project remains Web-first for rapid automated iteration. Runtime assets are sourced from `Tehkne-Solutions/hnk-rpg-game-assets` and synchronized into the local Web runtime during development/CI.
